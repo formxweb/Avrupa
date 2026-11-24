@@ -1,0 +1,1314 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Avrupa Store — Toptan & Tekli Giyim | Mont, Forma, Hoodie, Eşofman</title>
+<meta name="description" content="Avrupa Store: toptan ve tekli satış mağazası. Mont, forma, hoodie ve eşofman. Seri ile toptan fiyat, tekli alımda beden seçimi, hızlı sevkiyat, WhatsApp'tan sipariş.">
+<meta name="theme-color" content="#0b0b0c">
+<meta property="og:title" content="Avrupa Store — Toptan & Tekli Satış">
+<meta property="og:description" content="Mont, forma, hoodie, eşofman. Toptan da tekli de. Hızlı sevkiyat, WhatsApp'tan sipariş.">
+<meta property="og:image" content="https://images.unsplash.com/photo-1769689388217-c3c8fec7099d?w=1200&q=70&auto=format&fit=crop">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%230b0b0c' stroke='%23c9a24a' stroke-width='3'/%3E%3Ctext x='32' y='41' text-anchor='middle' font-family='Impact,sans-serif' font-size='26' fill='%23d9b862'%3EAS%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://images.unsplash.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#0b0b0c;--ink2:#151517;--ink3:#202024;
+  --gold:#c9a24a;--gold2:#ead08b;--gold3:#9f7b2c;
+  --goldg:linear-gradient(135deg,#f3dc97 0%,#d4b05a 45%,#b08a37 100%);
+  --paper:#f6f3ec;--card:#fff;--line:#e6dfd1;--muted:#7a7468;--text:#17171a;
+  --wa:#1faa59;--danger:#c0392b;
+  --ease:cubic-bezier(.2,.75,.2,1);
+  --display:'Anton',Impact,'Arial Narrow',sans-serif;
+  --body:'Manrope',system-ui,-apple-system,'Segoe UI',sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{font-family:var(--body);background:var(--paper);color:var(--text);line-height:1.5;-webkit-font-smoothing:antialiased;padding-bottom:calc(70px + env(safe-area-inset-bottom));overflow-x:hidden}
+body.lock{overflow:hidden}
+img{display:block;max-width:100%}
+button,input,select,textarea{font:inherit;color:inherit}
+button{cursor:pointer;background:none;border:0}
+a{color:inherit;text-decoration:none}
+:focus-visible{outline:2px solid var(--gold);outline-offset:2px;border-radius:6px}
+[hidden]{display:none!important}
+.wrap{max-width:1280px;margin:0 auto;padding:0 16px}
+@media(min-width:768px){.wrap{padding:0 28px}}
+@media(min-width:1024px){body{padding-bottom:0}}
+@media(max-width:1023.98px){.only-d{display:none!important}}
+@media(min-width:1024px){.only-m{display:none!important}}
+svg{flex:none}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* ---------- top bar ---------- */
+.topbar{background:var(--ink);color:#d8cdb2;font-size:12px;font-weight:600;letter-spacing:.02em}
+.tb-in{display:flex;align-items:center;gap:16px;height:34px}
+.tb-marq{flex:1;overflow:hidden;-webkit-mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent);mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent)}
+.tb-track{display:flex;gap:34px;width:max-content;animation:mq 32s linear infinite}
+.tb-track span{white-space:nowrap;display:inline-flex;align-items:center;gap:9px}
+.tb-track span::before{content:"";width:5px;height:5px;border-radius:50%;background:var(--gold)}
+.tb-phone{color:var(--gold2);white-space:nowrap;font-weight:800}
+@keyframes mq{to{transform:translateX(-50%)}}
+@media(min-width:1024px){.tb-marq{-webkit-mask-image:none;mask-image:none}.tb-track{animation:none}.tb-track .dup{display:none}}
+
+/* ---------- header ---------- */
+.hdr{position:sticky;top:0;z-index:60;background:rgba(246,243,236,.92);-webkit-backdrop-filter:saturate(1.4) blur(14px);backdrop-filter:saturate(1.4) blur(14px);border-bottom:1px solid var(--line)}
+.hdr-in{display:flex;align-items:center;gap:6px;height:60px}
+@media(min-width:1024px){.hdr-in{height:78px;gap:26px}}
+.ib{position:relative;width:42px;height:42px;display:grid;place-items:center;border-radius:12px;color:var(--ink);transition:background .2s}
+.ib:hover{background:rgba(0,0,0,.05)}
+.ib svg{width:23px;height:23px}
+.cnt{position:absolute;top:2px;right:1px;min-width:19px;height:19px;padding:0 5px;border-radius:10px;background:var(--gold);color:#111;font-size:10.5px;font-weight:800;display:grid;place-items:center;line-height:1;border:2px solid var(--paper)}
+.cnt:empty{display:none}
+.cnt.bump{animation:bump .5s var(--ease)}
+@keyframes bump{40%{transform:scale(1.35)}}
+.logo{display:flex;align-items:center;gap:9px;margin-right:auto;min-width:0}
+.mark{width:40px;height:40px}
+.lw{display:flex;flex-direction:column;line-height:1}
+.lw b{font-family:var(--display);font-weight:400;font-size:22px;letter-spacing:.05em;color:var(--ink)}
+.lw i{font-style:normal;font-size:8.5px;font-weight:800;letter-spacing:.5em;color:var(--gold3);margin-top:4px;padding-left:1px}
+@media(min-width:1024px){.mark{width:50px;height:50px}.lw b{font-size:28px}.lw i{font-size:10px}.logo{margin-right:0}}
+.hsearch{flex:1;max-width:520px;display:flex;align-items:center;gap:10px;height:48px;padding:0 18px;border-radius:999px;background:#fff;border:1.5px solid var(--line);transition:border-color .2s}
+.hsearch:focus-within{border-color:var(--ink)}
+.hsearch svg{width:19px;height:19px;color:var(--muted)}
+.hsearch input{flex:1;min-width:0;border:0;outline:0;background:none;font-size:14px;font-weight:600}
+.hicons{display:flex;gap:2px}
+@media(min-width:1024px){.hicons{margin-left:auto}}
+
+.mode{position:relative;display:grid;grid-template-columns:1fr 1fr;background:var(--ink);border-radius:999px;padding:4px;isolation:isolate}
+.mode button{position:relative;z-index:1;height:36px;padding:0 18px;border-radius:999px;font-weight:800;font-size:13px;color:#cfc6b2;letter-spacing:.02em;transition:color .25s;display:flex;align-items:center;justify-content:center;gap:6px;white-space:nowrap}
+.mode button small{font-weight:600;font-size:11px;opacity:.7}
+.mode .pill{position:absolute;z-index:0;top:4px;left:4px;bottom:4px;width:calc(50% - 4px);border-radius:999px;background:var(--goldg);transition:transform .38s var(--ease);box-shadow:0 4px 14px -6px rgba(201,162,74,.9)}
+.mode[data-active="toptan"] .pill{transform:translateX(100%)}
+.mode[data-active="tekli"] [data-mode="tekli"],.mode[data-active="toptan"] [data-mode="toptan"]{color:#111}
+.mrow{padding:0 16px 10px}
+.mrow .mode button{height:34px}
+
+.catnav{border-top:1px solid var(--line)}
+.catnav .wrap{display:flex;align-items:center;gap:30px;height:46px}
+.catnav a,.catnav button{font-size:12.5px;font-weight:800;text-transform:uppercase;letter-spacing:.07em;position:relative;padding:4px 0}
+.catnav a::after,.catnav button::after{content:"";position:absolute;left:0;right:0;bottom:-2px;height:2px;background:var(--gold);transform:scaleX(0);transform-origin:left;transition:transform .25s var(--ease)}
+.catnav a:hover::after,.catnav button:hover::after{transform:none}
+.catnav .cn-r{margin-left:auto;color:var(--wa);display:flex;gap:7px;align-items:center;text-transform:none;letter-spacing:0;font-size:13px}
+.catnav .cn-r svg{width:17px;height:17px}
+.catnav .cn-r::after{display:none}
+
+/* ---------- buttons ---------- */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;height:48px;padding:0 24px;border-radius:999px;font-weight:800;font-size:14px;letter-spacing:.01em;transition:transform .2s var(--ease),box-shadow .2s,background .2s,opacity .2s;white-space:nowrap}
+.btn svg{width:18px;height:18px}
+.btn:active{transform:scale(.97)}
+.btn.gold{background:var(--goldg);color:#111;box-shadow:0 8px 22px -10px rgba(201,162,74,.95)}
+.btn.gold:hover{box-shadow:0 12px 26px -10px rgba(201,162,74,1)}
+.btn.dark{background:var(--ink);color:#fff}
+.btn.dark:hover{background:#262629}
+.btn.ghost{border:1.5px solid rgba(255,255,255,.35);color:#fff}
+.btn.ghost:hover{border-color:#fff}
+.btn.line{border:1.5px solid var(--ink);color:var(--ink)}
+.btn.line:hover{background:var(--ink);color:#fff}
+.btn.wa{background:var(--wa);color:#fff}
+.btn.sm{height:38px;padding:0 14px;font-size:13px}
+.btn.block{width:100%}
+.btn[disabled]{opacity:.45;pointer-events:none}
+
+/* ---------- hero ---------- */
+.hero{display:grid;gap:12px;margin-top:14px}
+@media(min-width:1024px){.hero{grid-template-columns:2.15fr 1fr;gap:16px;margin-top:22px}}
+.slider{position:relative;border-radius:24px;overflow:hidden;background:var(--ink);color:#fff}
+.slides{display:grid}
+.slide{grid-area:1/1;position:relative;display:grid;min-height:460px;opacity:0;visibility:hidden;transition:opacity .8s var(--ease),visibility .8s}
+.slide.on{opacity:1;visibility:visible}
+.s-img{position:absolute;inset:0;overflow:hidden}
+.s-img img{width:100%;height:100%;object-fit:cover;transform:scale(1.06);transition:transform 7s linear}
+.slide.on .s-img img{transform:scale(1)}
+.s-img::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(11,11,12,.05) 20%,rgba(11,11,12,.72) 58%,#0b0b0c 92%)}
+.s-txt{position:relative;z-index:1;align-self:end;padding:24px 20px 56px}
+.s-txt .eyebrow{color:var(--gold2)}
+.s-title{font-family:var(--display);font-weight:400;font-size:clamp(46px,12vw,88px);line-height:1.02;text-transform:uppercase;letter-spacing:.005em;margin:12px 0 10px}
+.s-title em{font-style:normal;background:var(--goldg);-webkit-background-clip:text;background-clip:text;color:transparent}
+.s-desc{color:#cfc8b8;font-size:14.5px;max-width:420px}
+.s-prices{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0 18px}
+.sp{display:flex;align-items:baseline;gap:7px;padding:8px 13px;border-radius:12px;border:1px solid rgba(201,162,74,.45);background:rgba(11,11,12,.45);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}
+.sp span{font-size:10.5px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#bdb5a3}
+.sp b{font-size:19px;font-weight:800}
+.sp b small{font-size:11px;font-weight:600;color:#bdb5a3}
+.sp.g b{color:var(--gold2)}
+.s-cta{display:flex;gap:10px;flex-wrap:wrap}
+.dots{position:absolute;left:20px;bottom:22px;display:flex;gap:6px;z-index:3}
+.dots button{width:22px;height:4px;border-radius:4px;background:rgba(255,255,255,.3);transition:width .35s var(--ease),background .35s}
+.dots button.on{width:42px;background:var(--gold)}
+.arrows{position:absolute;right:16px;bottom:12px;display:flex;gap:8px;z-index:3}
+.arrows button{width:42px;height:42px;border-radius:50%;border:1.5px solid rgba(255,255,255,.28);display:grid;place-items:center;color:#fff;transition:background .2s,border-color .2s}
+.arrows button:hover{background:#fff;color:#111;border-color:#fff}
+.arrows svg{width:18px;height:18px}
+@media(max-width:767.98px){.arrows{display:none}}
+@media(min-width:900px){
+  .slide{grid-template-columns:1.02fr 1fr;min-height:520px}
+  .s-img{position:relative;inset:auto;grid-column:2;grid-row:1}
+  .s-img::after{background:linear-gradient(90deg,#0b0b0c 0%,rgba(11,11,12,.25) 28%,rgba(11,11,12,0) 55%)}
+  .s-txt{grid-column:1;grid-row:1;align-self:center;padding:56px 24px 70px 52px}
+  .dots{left:52px;bottom:30px}
+  .arrows{right:24px;bottom:22px}
+}
+.hero-side{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media(min-width:1024px){.hero-side{grid-template-columns:1fr;grid-template-rows:1fr 1fr;gap:16px}}
+.promo{position:relative;border-radius:22px;overflow:hidden;min-height:210px;display:flex;flex-direction:column;justify-content:flex-end;padding:16px;color:#fff;isolation:isolate;text-align:left;transition:transform .3s var(--ease)}
+.promo:hover{transform:translateY(-3px)}
+.promo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2;transition:transform .8s var(--ease)}
+.promo:hover img{transform:scale(1.05)}
+.promo::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(11,11,12,0) 30%,rgba(11,11,12,.88) 100%)}
+.promo small{font-size:10.5px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--gold2)}
+.promo strong{font-family:var(--display);font-weight:400;font-size:clamp(26px,6vw,38px);line-height:.95;text-transform:uppercase;margin:6px 0 6px}
+.promo span{font-size:12.5px;font-weight:600;color:#d9d2c3;display:flex;align-items:center;gap:6px}
+.promo span svg{width:15px;height:15px}
+.promo.dk{background:radial-gradient(120% 90% at 100% 0%,rgba(201,162,74,.38),transparent 55%),var(--ink)}
+.promo.dk::before{display:none}
+.promo.dk .big{position:absolute;top:12px;right:16px;font-family:var(--display);font-size:clamp(78px,10vw,132px);line-height:1;color:transparent;-webkit-text-stroke:1.2px rgba(201,162,74,.35);z-index:-1;letter-spacing:-.02em}
+@media(min-width:1024px){.promo{padding:24px}}
+
+/* ---------- band ---------- */
+.band{background:var(--ink);overflow:hidden;margin-top:44px;padding:15px 0;border-top:1px solid #222;border-bottom:1px solid #222}
+.band-track{display:flex;align-items:center;gap:30px;width:max-content;animation:mq 46s linear infinite;font-family:var(--display);font-size:clamp(28px,4.6vw,52px);text-transform:uppercase;line-height:1}
+.band-track span{color:#fff}
+.band-track span.o{color:transparent;-webkit-text-stroke:1.3px var(--gold)}
+.band-track i{width:12px;height:12px;background:var(--gold);transform:rotate(45deg);display:block}
+
+/* ---------- sections ---------- */
+main{scroll-margin-top:400px}
+.sec{margin-top:46px;scroll-margin-top:130px}
+@media(min-width:1024px){.sec{margin-top:76px}}
+.sh{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;margin-bottom:18px}
+.sh h2{font-family:var(--display);font-weight:400;font-size:clamp(32px,5vw,48px);line-height:1;text-transform:uppercase;margin-top:8px}
+.sh p{color:var(--muted);font-size:14px;margin-top:8px;max-width:540px}
+.eyebrow{display:inline-flex;align-items:center;gap:10px;font-size:11px;font-weight:800;letter-spacing:.2em;text-transform:uppercase;color:var(--gold3)}
+.eyebrow::before{content:"";width:22px;height:2px;background:currentColor}
+.link{font-weight:800;font-size:13.5px;display:inline-flex;gap:6px;align-items:center;white-space:nowrap}
+.link svg{width:16px;height:16px;transition:transform .2s}
+.link:hover svg{transform:translateX(3px)}
+
+/* how */
+.how{display:grid;gap:12px}
+@media(min-width:768px){.how{grid-template-columns:1fr 1fr;gap:18px}}
+.hc{position:relative;background:#fff;border:1.5px solid var(--line);border-radius:22px;padding:22px;display:grid;gap:16px;align-content:start;transition:border-color .3s,box-shadow .3s}
+.hc.on{border-color:var(--gold);box-shadow:0 0 0 4px rgba(201,162,74,.15)}
+.hc-top{display:flex;align-items:center;gap:14px}
+.hc-ic{width:50px;height:50px;border-radius:15px;background:var(--ink);color:var(--gold2);display:grid;place-items:center}
+.hc-ic svg{width:24px;height:24px}
+.hc h3{font-family:var(--display);font-weight:400;font-size:27px;text-transform:uppercase;line-height:1}
+.hc h3+p{font-size:13px;color:var(--muted);font-weight:600;margin-top:3px}
+.hc .now{margin-left:auto;font-size:10.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;background:var(--goldg);color:#111;padding:6px 10px;border-radius:999px;display:none;white-space:nowrap}
+.hc.on .now{display:inline-block}
+.hc ul{list-style:none;display:grid;gap:10px}
+.hc li{display:flex;gap:10px;font-size:14px;font-weight:600;align-items:flex-start}
+.hc li svg{width:18px;height:18px;color:var(--gold3);margin-top:2px}
+.hc .btn{justify-self:start}
+@media(min-width:1024px){.hc{padding:30px}}
+
+/* categories */
+.cats{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+@media(min-width:900px){.cats{grid-template-columns:repeat(4,1fr);gap:16px}}
+.ct{position:relative;aspect-ratio:4/5;border-radius:20px;overflow:hidden;color:#fff;display:flex;flex-direction:column;justify-content:flex-end;padding:16px;isolation:isolate;text-align:left}
+.ct img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2;transition:transform .9s var(--ease)}
+.ct::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,transparent 40%,rgba(11,11,12,.85))}
+.ct:hover img{transform:scale(1.06)}
+.ct b{font-family:var(--display);font-weight:400;font-size:clamp(26px,5vw,36px);text-transform:uppercase;line-height:1}
+.ct span{font-size:12.5px;font-weight:700;color:#e3dccd;display:flex;align-items:center;gap:6px;margin-top:4px}
+.ct span svg{width:15px;height:15px;transition:transform .2s}
+.ct:hover span svg{transform:translateX(3px)}
+
+/* products */
+.tools{display:flex;flex-wrap:wrap;align-items:center;gap:10px 8px;margin-bottom:16px}
+.chips{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;flex:1 1 100%;margin:0 -16px;padding:2px 16px}
+.chips::-webkit-scrollbar{display:none}
+@media(min-width:768px){.chips{flex:1 1 auto;margin:0;padding:2px 0}}
+.chip{height:38px;padding:0 16px;border-radius:999px;border:1.5px solid var(--line);background:#fff;font-weight:800;font-size:13px;white-space:nowrap;display:inline-flex;align-items:center;gap:6px;transition:background .2s,color .2s,border-color .2s}
+.chip:hover{border-color:var(--ink)}
+.chip.on{background:var(--ink);border-color:var(--ink);color:#fff}
+.chip .n{font-size:11px;opacity:.55;font-weight:700}
+.chip svg{width:14px;height:14px}
+.res{font-size:13px;color:var(--muted);font-weight:700;margin-right:auto}
+.vt{display:flex;border:1.5px solid var(--line);border-radius:12px;overflow:hidden;background:#fff}
+.vt button{width:38px;height:36px;display:grid;place-items:center;color:var(--muted)}
+.vt button.on{background:var(--ink);color:#fff}
+.vt svg{width:18px;height:18px}
+.sel{height:38px;border:1.5px solid var(--line);border-radius:12px;background:#fff;padding:0 10px;font-weight:700;font-size:13px}
+.mode-note{display:flex;align-items:center;gap:10px;background:var(--ink);color:#e9e1cf;border-radius:14px;padding:11px 14px;font-size:13px;font-weight:600;margin-bottom:14px}
+.mode-note b{color:var(--gold2)}
+.mode-note svg{width:18px;height:18px;color:var(--gold)}
+
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+@media(min-width:768px){.grid{grid-template-columns:repeat(3,1fr);gap:16px}}
+@media(min-width:1100px){.grid{grid-template-columns:repeat(4,1fr);gap:18px}}
+.pc{background:#fff;border-radius:18px;overflow:hidden;border:1px solid var(--line);display:flex;flex-direction:column;transition:box-shadow .3s,transform .3s var(--ease);min-width:0}
+@media(hover:hover){.pc:hover{box-shadow:0 22px 44px -28px rgba(0,0,0,.45);transform:translateY(-2px)}}
+.pc-media{position:relative;aspect-ratio:4/5;background:#ece7dc;overflow:hidden}
+.pc-img{position:absolute;inset:0;width:100%;height:100%;display:block}
+.pc-img img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:opacity .5s,transform .8s var(--ease)}
+.pc-img img.alt{opacity:0}
+@media(hover:hover){.pc:hover .pc-img img.alt{opacity:1}.pc:hover .pc-img img:only-child{transform:scale(1.05)}}
+.pc-tags{position:absolute;top:10px;left:10px;display:flex;flex-direction:column;align-items:flex-start;gap:5px;pointer-events:none}
+.tag{background:var(--ink);color:#fff;font-size:10px;font-weight:800;padding:5px 8px;border-radius:7px;text-transform:uppercase;letter-spacing:.05em;line-height:1.1}
+.tag.g{background:var(--goldg);color:#111}
+.pc-fav{position:absolute;top:8px;right:8px;width:36px;height:36px;border-radius:50%;background:rgba(255,255,255,.9);display:grid;place-items:center;color:var(--ink);transition:transform .2s}
+.pc-fav svg{width:18px;height:18px}
+.pc-fav.on{color:#c0392b}
+.pc-fav.on svg{fill:currentColor}
+.pc-fav:active{transform:scale(.88)}
+.pc-body{padding:12px 12px 14px;display:flex;flex-direction:column;gap:9px;flex:1}
+.pc-cat{font-size:10.5px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.pc-name{font-size:14.5px;font-weight:800;line-height:1.25;margin-top:2px}
+.pc-name button{text-align:left}
+.pc-name button:hover{text-decoration:underline;text-underline-offset:3px}
+.pc-col{font-size:12px;color:var(--muted);font-weight:600}
+.pr{display:flex;align-items:baseline;flex-wrap:wrap;gap:2px 6px}
+.pr b{font-size:19px;font-weight:800;letter-spacing:-.01em}
+.pr small{font-size:11.5px;color:var(--muted);font-weight:700}
+.pr s{font-size:12px;color:#a49d90;font-weight:600}
+.pr-sub{font-size:11.5px;color:var(--muted);font-weight:600;line-height:1.35;margin-top:2px}
+.pr-sub b{color:var(--text)}
+.pc-act{margin-top:auto}
+.qa-l{font-size:10.5px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:6px;display:block}
+.sz{display:flex;flex-wrap:wrap;gap:5px}
+.szb{min-width:34px;height:34px;padding:0 6px;border:1.5px solid var(--line);border-radius:9px;font-weight:800;font-size:12.5px;background:#fff;transition:border-color .15s,background .15s,color .15s}
+.szb:hover{border-color:var(--ink)}
+.szb.on{background:var(--ink);border-color:var(--ink);color:#fff}
+.szb.ok{background:var(--goldg);border-color:var(--gold);color:#111}
+.ws{display:flex;align-items:center;gap:6px}
+.step{display:flex;align-items:center;border:1.5px solid var(--line);border-radius:11px;height:38px;background:#fff;overflow:hidden}
+.step button{width:32px;height:100%;display:grid;place-items:center;font-size:18px;font-weight:700;color:var(--ink)}
+.step button:hover{background:#f2eee5}
+.step input,.step output{width:30px;text-align:center;border:0;outline:0;font-weight:800;font-size:14px;background:none}
+.ws .btn{flex:1;padding:0 10px}
+@media(min-width:768px){.pc-body{padding:14px 16px 16px}}
+
+.grid.list{grid-template-columns:1fr}
+.grid.list .pc{flex-direction:row}
+.grid.list .pc-media{width:116px;flex:none}
+.grid.list .tag.g{display:none}
+.grid.list .pc-fav{width:30px;height:30px;top:6px;right:6px}
+@media(min-width:768px){
+  .grid.list .pc-media{width:150px}
+  .grid.list .pc-body{display:grid;grid-template-columns:1.4fr 1fr 1.25fr;align-items:center;gap:20px;padding:16px 24px}
+  .grid.list .pc-act{margin-top:0}
+}
+.empty{grid-column:1/-1;text-align:center;padding:50px 20px;background:#fff;border:1.5px dashed var(--line);border-radius:20px}
+.empty b{display:block;font-size:17px;margin-bottom:6px}
+.empty p{color:var(--muted);font-size:14px;margin-bottom:16px}
+
+/* wholesale */
+.wb{position:relative;background:var(--ink);color:#fff;border-radius:28px;padding:28px 20px;display:grid;gap:26px;overflow:hidden;isolation:isolate}
+.wb::before{content:"";position:absolute;width:520px;height:520px;right:-180px;top:-220px;background:radial-gradient(circle,rgba(201,162,74,.35),transparent 65%);z-index:-1}
+.wb h2{font-family:var(--display);font-weight:400;font-size:clamp(34px,6vw,58px);line-height:.95;text-transform:uppercase;margin:12px 0 12px}
+.wb h2 em{font-style:normal;background:var(--goldg);-webkit-background-clip:text;background-clip:text;color:transparent}
+.wb p{color:#c9c1b0;font-size:15px;max-width:480px}
+.wb .eyebrow{color:var(--gold2)}
+.wb ul{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:22px}
+.wb li{display:flex;gap:10px;align-items:flex-start;font-size:13.5px;font-weight:700;color:#efe8d8}
+.wb li i{width:30px;height:30px;border-radius:9px;background:rgba(201,162,74,.14);color:var(--gold2);display:grid;place-items:center;flex:none}
+.wb li i svg{width:16px;height:16px}
+.wf{background:var(--ink2);border:1px solid rgba(201,162,74,.25);border-radius:22px;padding:20px;display:grid;gap:12px;align-content:start}
+.wf h3{font-size:17px;font-weight:800}
+.wf h3+p{font-size:13px;color:#a9a191;margin-top:-6px}
+@media(min-width:1024px){.wb{grid-template-columns:1.1fr .9fr;padding:56px;gap:48px;align-items:center}.wf{padding:28px}}
+
+/* forms */
+.fld{display:grid;gap:6px}
+.fld label{font-size:12.5px;font-weight:800}
+.fld label .opt{font-weight:600;color:var(--muted)}
+.inp{height:48px;width:100%;border-radius:12px;border:1.5px solid var(--line);background:#fff;padding:0 14px;font-size:15px;font-weight:600;outline:0;transition:border-color .2s,box-shadow .2s}
+textarea.inp{height:auto;min-height:84px;padding:12px 14px;resize:vertical}
+.inp:focus{border-color:var(--ink);box-shadow:0 0 0 3px rgba(11,11,12,.07)}
+.fld.bad .inp{border-color:var(--danger)}
+.err{font-size:12px;color:var(--danger);font-weight:700;display:none}
+.fld.bad .err{display:block}
+.dkf .inp{background:#0f0f11;border-color:#2c2c31;color:#fff}
+.dkf .inp::placeholder{color:#6f6a60}
+.dkf .inp:focus{border-color:var(--gold);box-shadow:0 0 0 3px rgba(201,162,74,.15)}
+.dkf label{color:#d9d1bf}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+
+/* trust */
+.trust{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media(min-width:900px){.trust{grid-template-columns:repeat(4,1fr);gap:16px}}
+.tr{background:#fff;border:1px solid var(--line);border-radius:18px;padding:18px;display:grid;gap:10px;align-content:start}
+.tr i{width:44px;height:44px;border-radius:13px;background:var(--ink);color:var(--gold2);display:grid;place-items:center}
+.tr i svg{width:21px;height:21px}
+.tr b{font-size:14.5px;font-weight:800}
+.tr span{font-size:12.5px;color:var(--muted);font-weight:600;line-height:1.4}
+
+/* faq */
+.faq{display:grid;gap:10px}
+@media(min-width:1024px){.faq-wrap{display:grid;grid-template-columns:.8fr 1.2fr;gap:48px;align-items:start}}
+.faq details{background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden}
+.faq summary{list-style:none;cursor:pointer;padding:17px 18px;font-weight:800;font-size:14.5px;display:flex;justify-content:space-between;gap:16px;align-items:center}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary i{width:28px;height:28px;border-radius:50%;background:#f1ece2;display:grid;place-items:center;flex:none;transition:transform .3s var(--ease),background .3s}
+.faq summary i svg{width:15px;height:15px}
+.faq details[open] summary i{transform:rotate(45deg);background:var(--gold)}
+.faq details p{padding:0 18px 18px;color:#555047;font-size:14px}
+.faq-cta{margin-top:18px;background:var(--ink);color:#fff;border-radius:20px;padding:22px;display:grid;gap:12px}
+.faq-cta b{font-size:16px}
+.faq-cta span{font-size:13.5px;color:#bdb5a3}
+
+/* seo */
+.seo{border-top:1px solid var(--line);padding-top:30px}
+.seo h2{font-size:18px;font-weight:800;margin-bottom:8px}
+.seo p{color:var(--muted);font-size:14px;max-width:880px}
+.kw{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.kw button{border:1px solid var(--line);background:#fff;border-radius:8px;padding:7px 11px;font-size:12px;font-weight:700;color:#4d4840}
+.kw button:hover{border-color:var(--ink)}
+
+/* footer */
+.ft{background:var(--ink);color:#c9c1b0;margin-top:56px;padding:44px 0 24px;scroll-margin-top:100px}
+.ft-grid{display:grid;gap:30px}
+@media(min-width:900px){.ft-grid{grid-template-columns:1.4fr 1fr 1fr 1.2fr;gap:40px}}
+.ft .lw b{color:#fff}
+.ft p{font-size:13.5px;margin-top:14px;max-width:340px}
+.ft h4{color:#fff;font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;margin-bottom:14px}
+.ft ul{list-style:none;display:grid;gap:10px;font-size:14px;font-weight:600}
+.ft ul a:hover,.ft ul button:hover{color:var(--gold2)}
+.ft ul button{text-align:left}
+.ft .social{display:flex;gap:10px;margin-top:18px}
+.ft .social a{width:40px;height:40px;border-radius:12px;border:1px solid #2c2c31;display:grid;place-items:center;color:#fff;transition:border-color .2s,color .2s}
+.ft .social a:hover{border-color:var(--gold);color:var(--gold2)}
+.ft .social svg{width:19px;height:19px}
+.ft-bot{border-top:1px solid #222;margin-top:34px;padding-top:20px;display:flex;flex-wrap:wrap;gap:8px 20px;justify-content:space-between;font-size:12px;color:#8a8376}
+.ft-bot a{color:var(--gold2)}
+
+/* bottom nav */
+.bnav{position:fixed;left:0;right:0;bottom:0;z-index:70;background:var(--ink);display:grid;grid-template-columns:repeat(5,1fr);padding:6px 6px calc(6px + env(safe-area-inset-bottom));border-top:1px solid #222}
+.bnav button,.bnav a{display:flex;flex-direction:column;align-items:center;gap:3px;color:#bdb5a3;font-size:10.5px;font-weight:700;padding:4px 0;position:relative}
+.bnav svg{width:22px;height:22px}
+.bnav .cnt{top:-2px;right:calc(50% - 22px);border-color:var(--ink)}
+.bnav .bm{margin-top:-22px}
+.bnav .bm span.c{width:52px;height:52px;border-radius:50%;background:var(--goldg);color:#111;display:grid;place-items:center;box-shadow:0 6px 18px -6px rgba(201,162,74,.9);border:3px solid var(--ink)}
+.bnav .bm b{color:var(--gold2);font-weight:800;letter-spacing:.04em}
+@media(min-width:1024px){.bnav{display:none}}
+.fwa{position:fixed;right:16px;bottom:calc(84px + env(safe-area-inset-bottom));z-index:65;width:54px;height:54px;border-radius:50%;background:var(--wa);color:#fff;display:grid;place-items:center;box-shadow:0 10px 24px -8px rgba(31,170,89,.8);transition:transform .2s}
+.fwa:hover{transform:scale(1.06)}
+.fwa svg{width:28px;height:28px}
+@media(min-width:1024px){.fwa{bottom:26px;right:26px;width:60px;height:60px}}
+
+/* overlays */
+.ov{position:fixed;inset:0;background:rgba(11,11,12,.55);-webkit-backdrop-filter:blur(3px);backdrop-filter:blur(3px);opacity:0;visibility:hidden;transition:opacity .3s,visibility .3s;z-index:80}
+.ov.on{opacity:1;visibility:visible}
+.drawer{position:fixed;top:0;bottom:0;right:0;width:min(440px,100%);background:var(--paper);z-index:90;transform:translateX(102%);transition:transform .38s var(--ease),visibility .38s;display:flex;flex-direction:column;visibility:hidden}
+.drawer.left{right:auto;left:0;transform:translateX(-102%)}
+.drawer.on{transform:none;visibility:visible}
+.dh{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 16px 14px 20px;border-bottom:1px solid var(--line)}
+.dh h3{font-family:var(--display);font-weight:400;font-size:26px;text-transform:uppercase;line-height:1}
+.dh h3 small{font-family:var(--body);font-size:13px;color:var(--muted);font-weight:700;text-transform:none;margin-left:6px}
+.db{flex:1;overflow-y:auto;padding:16px 20px;overscroll-behavior:contain}
+.df{border-top:1px solid var(--line);padding:16px 20px calc(16px + env(safe-area-inset-bottom));background:#fff;display:grid;gap:10px}
+
+.ci{display:grid;grid-template-columns:76px 1fr;gap:12px;padding:12px 0;border-bottom:1px solid var(--line)}
+.ci img{width:76px;height:95px;object-fit:cover;border-radius:12px;background:#ece7dc}
+.ci-t{display:flex;justify-content:space-between;gap:8px}
+.ci-t b{font-size:14px;font-weight:800;line-height:1.25}
+.ci-t button{color:var(--muted);width:28px;height:28px;display:grid;place-items:center;border-radius:8px;flex:none}
+.ci-t button:hover{background:#ece7dc;color:var(--danger)}
+.ci-t button svg{width:16px;height:16px}
+.ci-m{font-size:12px;color:var(--muted);font-weight:600;margin-top:3px;display:flex;flex-wrap:wrap;gap:4px 8px;align-items:center}
+.mt{font-size:9.5px;font-weight:800;letter-spacing:.08em;padding:3px 6px;border-radius:5px;background:var(--ink);color:#fff}
+.mt.w{background:var(--goldg);color:#111}
+.ci-b{display:flex;justify-content:space-between;align-items:center;margin-top:8px;gap:8px}
+.ci-b .step{height:34px}
+.ci-b .step button{width:30px}
+.ci-b strong{font-size:15px;font-weight:800}
+.sum{display:grid;gap:6px;font-size:14px}
+.sum div{display:flex;justify-content:space-between;gap:10px}
+.sum span{color:var(--muted);font-weight:600}
+.sum .tot{font-size:17px;font-weight:800;padding-top:6px;border-top:1px dashed var(--line);margin-top:4px}
+.sum .tot span{color:var(--text)}
+.c-empty{text-align:center;padding:60px 10px}
+.c-empty i{width:72px;height:72px;border-radius:50%;background:#ece7dc;display:grid;place-items:center;margin:0 auto 16px;color:var(--muted)}
+.c-empty i svg{width:30px;height:30px}
+.c-empty b{display:block;font-size:17px;margin-bottom:4px}
+.c-empty p{color:var(--muted);font-size:14px;margin-bottom:18px}
+
+.modal{position:fixed;z-index:90;left:50%;top:50%;width:min(1000px,calc(100% - 40px));max-height:calc(100dvh - 48px);background:var(--paper);border-radius:26px;overflow:hidden;display:flex;flex-direction:column;opacity:0;visibility:hidden;transform:translate(-50%,-47%) scale(.98);transition:opacity .3s,transform .38s var(--ease),visibility .3s}
+.modal.on{opacity:1;visibility:visible;transform:translate(-50%,-50%)}
+.modal.narrow{width:min(640px,calc(100% - 40px))}
+.m-x{position:absolute;top:12px;right:12px;z-index:5;width:40px;height:40px;border-radius:50%;background:rgba(255,255,255,.92);display:grid;place-items:center;box-shadow:0 4px 14px -6px rgba(0,0,0,.3)}
+.m-x svg{width:19px;height:19px}
+.m-sc{overflow-y:auto;flex:1;overscroll-behavior:contain}
+@media(max-width:767.98px){
+  .modal,.modal.narrow{left:0;top:auto;bottom:0;width:100%;max-height:94dvh;border-radius:24px 24px 0 0;transform:translateY(100%);transition:transform .4s var(--ease),visibility .4s,opacity .2s}
+  .modal.on{transform:none}
+  .modal::before{content:"";position:absolute;top:8px;left:50%;width:42px;height:4px;margin-left:-21px;border-radius:4px;background:rgba(255,255,255,.75);z-index:6;box-shadow:0 0 0 1px rgba(0,0,0,.06)}
+}
+
+/* product modal */
+.pm-grid{display:grid}
+@media(min-width:768px){.pm-grid{grid-template-columns:1.02fr 1fr}}
+.gal{position:relative;background:#ece7dc}
+.gal-track{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none}
+.gal-track::-webkit-scrollbar{display:none}
+.gal-track img{flex:0 0 100%;width:100%;aspect-ratio:4/4.4;object-fit:cover;scroll-snap-align:start}
+@media(min-width:768px){.gal{position:sticky;top:0;align-self:start}.gal-track img{aspect-ratio:auto;height:min(calc(100dvh - 126px),760px)}}
+.gal-th{position:absolute;left:12px;bottom:12px;display:flex;gap:6px}
+.gal-th button{width:46px;height:56px;border-radius:9px;overflow:hidden;border:2px solid rgba(255,255,255,.6);opacity:.75}
+.gal-th button.on{border-color:var(--gold);opacity:1}
+.gal-th img{width:100%;height:100%;object-fit:cover}
+.pm-info{padding:22px 20px 18px;display:grid;gap:16px;align-content:start}
+@media(min-width:768px){.pm-info{padding:30px 30px 20px}}
+.pm-top{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.pm-name{font-family:var(--display);font-weight:400;font-size:clamp(32px,5vw,42px);line-height:1;text-transform:uppercase;margin-top:-6px}
+.pm-price{display:flex;align-items:baseline;flex-wrap:wrap;gap:4px 10px}
+.pm-price b{font-size:28px;font-weight:800;letter-spacing:-.01em}
+.pm-price small{font-size:13px;color:var(--muted);font-weight:700}
+.pm-price s{color:#a49d90;font-weight:600}
+.pm-price .save{font-size:11.5px;font-weight:800;background:#efe4c6;color:#6f5419;padding:4px 8px;border-radius:7px}
+.pm-alt{font-size:13px;color:var(--muted);font-weight:600;margin-top:-10px}
+.pm-alt button{font-weight:800;color:var(--text);text-decoration:underline;text-underline-offset:3px}
+.pm-desc{font-size:14.5px;color:#4d4840}
+.opt{display:grid;gap:10px}
+.opt-h{display:flex;justify-content:space-between;align-items:baseline;gap:10px;font-size:13.5px}
+.opt-h b{font-weight:800}
+.opt-h span{color:var(--muted);font-weight:600;font-size:12.5px}
+.opt-h span.need{color:var(--danger);font-weight:800}
+.sz.lg .szb{min-width:52px;height:46px;font-size:14px;border-radius:12px}
+.step.lg{height:46px;width:max-content}
+.step.lg button{width:44px}
+.step.lg output{width:40px}
+.seri{display:flex;flex-wrap:wrap;gap:6px}
+.seri span{display:flex;align-items:center;gap:4px;padding:8px 11px;border-radius:10px;background:#fff;border:1px solid var(--line);font-size:13px;font-weight:600;color:var(--muted)}
+.seri b{color:var(--text);font-weight:800}
+.note{font-size:12.5px;background:#fff;border:1px solid var(--line);border-left:3px solid var(--gold);border-radius:10px;padding:10px 12px;color:#4d4840;font-weight:600}
+.print{background:#fff;border:1px solid var(--line);border-radius:16px;padding:14px;display:grid;gap:12px}
+.sw{position:relative;display:flex;align-items:center;gap:12px;cursor:pointer}
+.sw input{position:absolute;opacity:0;pointer-events:none}
+.sw-ui{width:44px;height:26px;border-radius:999px;background:#d8d2c5;position:relative;flex:none;transition:background .25s}
+.sw-ui::after{content:"";position:absolute;top:3px;left:3px;width:20px;height:20px;border-radius:50%;background:#fff;transition:transform .25s var(--ease);box-shadow:0 1px 3px rgba(0,0,0,.2)}
+.sw input:checked+.sw-ui{background:var(--gold)}
+.sw input:checked+.sw-ui::after{transform:translateX(18px)}
+.sw input:focus-visible+.sw-ui{outline:2px solid var(--ink);outline-offset:2px}
+.sw b{display:block;font-size:14px;font-weight:800}
+.sw small{font-size:12px;color:var(--muted);font-weight:600}
+.pf{display:grid;grid-template-columns:1fr 112px;gap:14px;align-items:center}
+.pf-in{display:grid;gap:8px}
+.jp{background:radial-gradient(circle at 50% 30%,#2a2a2f,#111);border-radius:14px;padding:6px}
+.jp svg{width:100%;height:auto;display:block}
+.pm-perks{list-style:none;display:grid;gap:8px;font-size:13px;font-weight:600;color:#4d4840}
+.pm-perks li{display:flex;gap:9px;align-items:center}
+.pm-perks svg{width:17px;height:17px;color:var(--gold3)}
+.pm-ask{display:inline-flex;align-items:center;gap:8px;font-weight:800;font-size:13.5px;color:var(--wa)}
+.pm-ask svg{width:18px;height:18px}
+.pm-bar{position:sticky;bottom:0;display:flex;align-items:center;gap:14px;justify-content:space-between;padding:12px 20px calc(12px + env(safe-area-inset-bottom));background:rgba(246,243,236,.96);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border-top:1px solid var(--line)}
+.pm-bar span{display:block;font-size:11.5px;color:var(--muted);font-weight:700}
+.pm-bar strong{font-size:20px;font-weight:800}
+.pm-bar .btn{flex:1;max-width:300px}
+@media(min-width:768px){.pm-bar{padding:14px 30px}}
+
+/* checkout */
+.co-h{padding:22px 20px 0}
+.co-h h3{font-family:var(--display);font-weight:400;font-size:32px;text-transform:uppercase;line-height:1}
+.co-h p{color:var(--muted);font-size:13.5px;margin-top:6px}
+.co-b{padding:18px 20px;display:grid;gap:14px}
+@media(min-width:768px){.co-h{padding:28px 30px 0}.co-b{padding:20px 30px}}
+.co-sec{font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--gold3);margin-top:6px}
+.pays{display:grid;gap:8px}
+.pay{display:flex;gap:12px;align-items:flex-start;padding:14px;border-radius:14px;border:1.5px solid var(--line);background:#fff;cursor:pointer;transition:border-color .2s,box-shadow .2s}
+.pay input{margin-top:3px;accent-color:#111;width:18px;height:18px;flex:none}
+.pay b{display:block;font-size:14px;font-weight:800}
+.pay small{font-size:12.5px;color:var(--muted);font-weight:600}
+.pay:has(input:checked){border-color:var(--ink);box-shadow:0 0 0 3px rgba(11,11,12,.06)}
+.pay.dis{opacity:.5;cursor:not-allowed}
+.mini{background:#fff;border:1px solid var(--line);border-radius:16px;padding:14px;display:grid;gap:8px;font-size:13px}
+.mini div{display:flex;justify-content:space-between;gap:10px}
+.mini div span{color:#4d4840;font-weight:600}
+.mini div b{white-space:nowrap}
+.ok{padding:40px 22px 30px;text-align:center;display:grid;gap:12px;justify-items:center}
+.ok i{width:76px;height:76px;border-radius:50%;background:var(--goldg);display:grid;place-items:center;color:#111}
+.ok i svg{width:36px;height:36px}
+.ok h3{font-family:var(--display);font-weight:400;font-size:34px;text-transform:uppercase;line-height:1}
+.ok p{color:var(--muted);font-size:14px;max-width:380px}
+.ok .no{font-weight:800;background:#fff;border:1px dashed var(--gold);padding:8px 14px;border-radius:10px;font-size:15px}
+.ok .btns{display:grid;gap:8px;width:100%;max-width:340px;margin-top:6px}
+
+/* menu & search */
+.mn-sec{font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin:20px 0 10px}
+.mn-sec:first-child{margin-top:4px}
+.mn-cat{display:flex;align-items:center;gap:12px;padding:8px 0;width:100%;text-align:left;font-weight:800;font-size:16px;border-bottom:1px solid var(--line)}
+.mn-cat img{width:46px;height:46px;border-radius:12px;object-fit:cover}
+.mn-cat span{margin-left:auto;font-size:12px;color:var(--muted);font-weight:700}
+.mn-link{display:flex;align-items:center;justify-content:space-between;padding:13px 0;border-bottom:1px solid var(--line);font-weight:700;font-size:15px;width:100%;text-align:left}
+.mn-link svg{width:17px;height:17px;color:var(--muted)}
+.srch{position:fixed;top:0;left:0;right:0;z-index:90;background:var(--paper);padding:12px 16px 16px;transform:translateY(-102%);transition:transform .35s var(--ease),visibility .35s;visibility:hidden;max-height:86dvh;display:flex;flex-direction:column;border-radius:0 0 22px 22px}
+.srch.on{transform:none;visibility:visible}
+.srch-in{display:flex;gap:8px;align-items:center}
+.srch-in .hsearch{max-width:none;display:flex}
+.srch-res{overflow-y:auto;margin-top:10px}
+.sr-i{display:flex;align-items:center;gap:12px;padding:9px 0;border-bottom:1px solid var(--line);width:100%;text-align:left}
+.sr-i img{width:48px;height:58px;border-radius:10px;object-fit:cover}
+.sr-i b{display:block;font-size:14px}
+.sr-i span{font-size:12.5px;color:var(--muted);font-weight:600}
+.sr-i strong{margin-left:auto;font-size:14px}
+.sr-none{padding:20px 0;color:var(--muted);font-size:14px;text-align:center}
+
+/* toast */
+.toast{position:fixed;left:50%;bottom:calc(84px + env(safe-area-inset-bottom));z-index:100;transform:translate(-50%,20px);opacity:0;visibility:hidden;background:var(--ink);color:#fff;border-radius:14px;padding:10px 10px 10px 14px;display:flex;align-items:center;gap:12px;font-size:13.5px;font-weight:700;box-shadow:0 16px 40px -14px rgba(0,0,0,.6);transition:all .35s var(--ease);width:max-content;max-width:calc(100% - 32px)}
+.toast.on{opacity:1;visibility:visible;transform:translate(-50%,0)}
+.toast i{width:26px;height:26px;border-radius:50%;background:var(--goldg);color:#111;display:grid;place-items:center;flex:none}
+.toast i svg{width:15px;height:15px}
+.toast button{background:#2a2a2f;color:var(--gold2);border-radius:10px;padding:8px 12px;font-weight:800;font-size:12.5px;white-space:nowrap}
+.toast button:empty{display:none}
+@media(min-width:1024px){.toast{bottom:28px}}
+@media(max-width:1023.98px){body.lock .toast{bottom:auto;top:calc(12px + env(safe-area-inset-top));transform:translate(-50%,-20px)}body.lock .toast.on{transform:translate(-50%,0)}}
+
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important;scroll-behavior:auto!important}
+  .tb-track,.band-track{animation:none!important}
+}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><linearGradient id="gg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f3dc97"/><stop offset=".5" stop-color="#c9a24a"/><stop offset="1" stop-color="#8f6b22"/></linearGradient></defs></svg>
+
+<div class="topbar"><div class="wrap tb-in">
+  <div class="tb-marq"><div class="tb-track">
+    <span>Toptan & tekli satış</span><span>Hızlı sevkiyat</span><span>WhatsApp'tan sipariş</span><span>Seri ile toptan fiyat</span>
+    <span class="dup">Toptan & tekli satış</span><span class="dup">Hızlı sevkiyat</span><span class="dup">WhatsApp'tan sipariş</span><span class="dup">Seri ile toptan fiyat</span>
+  </div></div>
+  <a class="tb-phone" id="tbPhone" href="#"></a>
+</div></div>
+
+<header class="hdr" id="hdr">
+  <div class="wrap hdr-in">
+    <button class="ib only-m" id="menuBtn" aria-label="Menüyü aç"></button>
+    <a class="logo" href="#top" aria-label="Avrupa Store ana sayfa">
+      <svg class="mark" viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="29.5" fill="#0b0b0c" stroke="url(#gg)" stroke-width="3"/><circle cx="32" cy="32" r="24" fill="none" stroke="#c9a24a" stroke-opacity=".35" stroke-width="1"/><text x="32" y="42" text-anchor="middle" font-family="Anton,Impact,sans-serif" font-size="27" fill="url(#gg)" letter-spacing=".5">AS</text></svg>
+      <span class="lw"><b>AVRUPA</b><i>STORE</i></span>
+    </a>
+    <form class="hsearch only-d" role="search" id="dSearch"><span data-ic="search"></span><input id="qD" type="search" placeholder="Mont, forma, hoodie, eşofman ara…" aria-label="Ürün ara" autocomplete="off"></form>
+    <div class="mode only-d" data-modesw role="radiogroup" aria-label="Satış türü"><span class="pill"></span><button type="button" data-mode="tekli" role="radio">Tekli</button><button type="button" data-mode="toptan" role="radio">Toptan</button></div>
+    <div class="hicons">
+      <button class="ib only-m" id="searchBtn" aria-label="Ara"></button>
+      <button class="ib" id="favBtn" aria-label="Favoriler"><span class="cnt" id="favCnt"></span></button>
+      <button class="ib" id="cartBtn" aria-label="Sepet"><span class="cnt" id="cartCnt"></span></button>
+    </div>
+  </div>
+  <div class="mrow only-m">
+    <div class="mode" data-modesw role="radiogroup" aria-label="Satış türü"><span class="pill"></span><button type="button" data-mode="tekli" role="radio">Tekli satış <small>1 adetten</small></button><button type="button" data-mode="toptan" role="radio">Toptan satış <small>seri ile</small></button></div>
+  </div>
+  <nav class="catnav only-d" aria-label="Kategoriler"><div class="wrap" id="catNav"></div></nav>
+</header>
+
+<main id="top">
+  <section class="wrap hero" aria-label="Öne çıkanlar">
+    <div class="slider" id="slider" aria-roledescription="carousel">
+      <div class="slides" id="slides"></div>
+      <div class="dots" id="dots" role="tablist" aria-label="Slaytlar"></div>
+      <div class="arrows"><button type="button" id="prev" aria-label="Önceki"></button><button type="button" id="next" aria-label="Sonraki"></button></div>
+    </div>
+    <div class="hero-side" id="heroSide"></div>
+  </section>
+
+  <div class="band" aria-hidden="true"><div class="band-track" id="band"></div></div>
+
+  <section class="wrap sec" id="nasil">
+    <div class="sh"><div><span class="eyebrow">İki şekilde alışveriş</span><h2>Tekli de alırsın, toptan da</h2><p>Kendin için tek parça mı, mağazan için seri mi? Üstten seç, fiyatlar ona göre değişsin.</p></div></div>
+    <div class="how" id="how"></div>
+  </section>
+
+  <section class="wrap sec" id="kategoriler">
+    <div class="sh"><div><span class="eyebrow">Kategoriler</span><h2>Ne arıyorsun?</h2></div></div>
+    <div class="cats" id="cats"></div>
+  </section>
+
+  <section class="wrap sec" id="urunler">
+    <div class="sh"><div><span class="eyebrow">Mağaza</span><h2 id="pTitle">Tüm ürünler</h2></div></div>
+    <div class="mode-note" id="modeNote"></div>
+    <div class="tools">
+      <div class="chips" id="chips" role="tablist" aria-label="Kategori filtresi"></div>
+      <span class="res" id="res"></span>
+      <div class="vt" role="group" aria-label="Görünüm"><button type="button" class="on" data-view="grid" aria-label="Izgara görünüm"></button><button type="button" data-view="list" aria-label="Liste görünüm"></button></div>
+      <select class="sel" id="sort" aria-label="Sırala"><option value="rec">Önerilen</option><option value="asc">Fiyat: düşükten yükseğe</option><option value="desc">Fiyat: yüksekten düşüğe</option></select>
+    </div>
+    <div class="grid" id="grid"></div>
+  </section>
+
+  <section class="wrap sec" id="toptan">
+    <div class="wb">
+      <div>
+        <span class="eyebrow">Bayi & mağaza</span>
+        <h2>Toptan fiyat listesi <em>WhatsApp'ına</em> gelsin</h2>
+        <p>Mağazan, butiğin ya da Instagram sayfan için mal mı alacaksın? Bilgilerini bırak, güncel toptan fiyat listesini ve yeni gelen ürünleri sana gönderelim.</p>
+        <ul id="wbList"></ul>
+      </div>
+      <form class="wf dkf" id="bayiForm" novalidate>
+        <div><h3>Toptan fiyat listesi iste</h3><p>Bilgilerin sadece sana dönüş yapmak için kullanılır.</p></div>
+        <div class="fld"><label for="bName">Ad Soyad</label><input class="inp" id="bName" name="name" autocomplete="name" placeholder="Adın ve soyadın"><span class="err">Adını yaz.</span></div>
+        <div class="row2">
+          <div class="fld"><label for="bShop">Mağaza adı <span class="opt">(varsa)</span></label><input class="inp" id="bShop" name="shop" placeholder="Mağaza / sayfa"></div>
+          <div class="fld"><label for="bCity">Şehir</label><input class="inp" id="bCity" name="city" autocomplete="address-level1" placeholder="Şehir"><span class="err">Şehri yaz.</span></div>
+        </div>
+        <div class="fld"><label for="bPhone">Telefon</label><input class="inp" id="bPhone" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="05xx xxx xx xx"><span class="err">Geçerli bir cep telefonu yaz (05xx xxx xx xx).</span></div>
+        <button class="btn gold block" type="submit"><span data-ic="wa"></span>Fiyat listesini iste</button>
+      </form>
+    </div>
+  </section>
+
+  <section class="wrap sec" aria-label="Neden Avrupa Store">
+    <div class="trust" id="trust"></div>
+  </section>
+
+  <section class="wrap sec" id="sss">
+    <div class="faq-wrap">
+      <div>
+        <div class="sh"><div><span class="eyebrow">S.S.S.</span><h2>Merak edilenler</h2><p>Sipariş, toptan alım ve ödeme hakkında en çok sorulanlar.</p></div></div>
+        <div class="faq-cta only-d"><b>Cevabını bulamadın mı?</b><span>WhatsApp'tan yaz, hemen dönüş yapalım.</span><a class="btn wa" id="faqWa" target="_blank" rel="noopener"><span data-ic="wa"></span>WhatsApp'tan yaz</a></div>
+      </div>
+      <div class="faq" id="faq"></div>
+    </div>
+  </section>
+
+  <section class="wrap sec seo">
+    <h2>Avrupa Store — Toptan ve tekli giyim</h2>
+    <p>Avrupa Store olarak mont, forma, hoodie, sweatshirt ve eşofman modellerinde hem toptan hem tekli satış yapıyoruz. Tekli alışverişte bedenini seçip tek adet sipariş verebilir, formalarına isim ve numara baskısı ekleyebilirsin. Mağaza ve butikler için toptan alışverişte ürünler seri (asorti) halinde, adet başı toptan fiyatla gönderilir; farklı modelleri aynı siparişte birleştirebilirsin. Tüm siparişler WhatsApp üzerinden onaylanır ve hızlıca sevk edilir.</p>
+    <div class="kw" id="kw"></div>
+  </section>
+</main>
+
+<footer class="ft" id="iletisim">
+  <div class="wrap">
+    <div class="ft-grid">
+      <div>
+        <a class="logo" href="#top" aria-label="Avrupa Store">
+          <svg class="mark" viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="29.5" fill="#0b0b0c" stroke="url(#gg)" stroke-width="3"/><circle cx="32" cy="32" r="24" fill="none" stroke="#c9a24a" stroke-opacity=".35" stroke-width="1"/><text x="32" y="42" text-anchor="middle" font-family="Anton,Impact,sans-serif" font-size="27" fill="url(#gg)">AS</text></svg>
+          <span class="lw"><b>AVRUPA</b><i>STORE</i></span>
+        </a>
+        <p>Moda & tekstil. Toptan ve tekli satış mağazası. Hızlı sevkiyat, WhatsApp'tan sipariş.</p>
+        <div class="social"><a id="ftIg" target="_blank" rel="noopener" aria-label="Instagram"></a><a id="ftWa" target="_blank" rel="noopener" aria-label="WhatsApp"></a><a id="ftTel" aria-label="Telefon"></a></div>
+      </div>
+      <div><h4>Alışveriş</h4><ul id="ftCats"></ul></div>
+      <div><h4>Bilgi</h4><ul>
+        <li><a href="#nasil">Tekli ve toptan alışveriş</a></li>
+        <li><a href="#toptan">Toptan fiyat listesi</a></li>
+        <li><a href="#sss">Sık sorulan sorular</a></li>
+        <li><button type="button" data-opencart>Sepetim</button></li>
+      </ul></div>
+      <div><h4>İletişim</h4><ul>
+        <li><a id="ftPhone"></a></li>
+        <li><a id="ftWa2" target="_blank" rel="noopener">WhatsApp'tan sipariş</a></li>
+        <li><a id="ftIg2" target="_blank" rel="noopener"></a></li>
+      </ul></div>
+    </div>
+    <div class="ft-bot"><span>© <span id="yr"></span> Avrupa Store · Tüm hakları saklıdır. Görseller temsilidir.</span><span>Web tasarım: <a href="https://instagram.com/aleyta_studio" target="_blank" rel="noopener">Aleyta Stüdyo</a></span></div>
+  </div>
+</footer>
+
+<nav class="bnav" aria-label="Alt menü">
+  <a href="#top" id="bnHome"><span data-ic="home"></span>Anasayfa</a>
+  <button type="button" id="bnCats"><span data-ic="grid"></span>Kategoriler</button>
+  <button type="button" class="bm" id="bnMode" aria-label="Satış türünü değiştir"><span class="c" data-ic="swap"></span><b id="bnModeT">TEKLİ</b></button>
+  <button type="button" id="bnFav"><span data-ic="heart"></span>Favoriler<span class="cnt" id="favCnt2"></span></button>
+  <button type="button" id="bnCart"><span data-ic="bag"></span>Sepetim<span class="cnt" id="cartCnt2"></span></button>
+</nav>
+<a class="fwa" id="fwa" target="_blank" rel="noopener" aria-label="WhatsApp'tan yaz"></a>
+
+<div class="ov" id="ov"></div>
+
+<aside class="drawer" id="cart" aria-label="Sepet" aria-hidden="true" role="dialog" aria-modal="true">
+  <div class="dh"><h3>Sepetim<small id="cartSub"></small></h3><button class="ib" data-close aria-label="Kapat"><span data-ic="x"></span></button></div>
+  <div class="db" id="cartBody"></div>
+  <div class="df" id="cartFoot"></div>
+</aside>
+
+<aside class="drawer left" id="menu" aria-label="Menü" aria-hidden="true" role="dialog" aria-modal="true">
+  <div class="dh"><a class="logo" href="#top" data-close><svg class="mark" viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="29.5" fill="#0b0b0c" stroke="url(#gg)" stroke-width="3"/><text x="32" y="42" text-anchor="middle" font-family="Anton,Impact,sans-serif" font-size="27" fill="url(#gg)">AS</text></svg><span class="lw"><b>AVRUPA</b><i>STORE</i></span></a><button class="ib" data-close aria-label="Kapat"><span data-ic="x"></span></button></div>
+  <div class="db" id="menuBody"></div>
+</aside>
+
+<div class="srch" id="srch" role="dialog" aria-modal="true" aria-label="Ürün ara" aria-hidden="true">
+  <div class="srch-in"><div class="hsearch"><span data-ic="search"></span><input id="qM" type="search" placeholder="Ürün ara…" aria-label="Ürün ara" autocomplete="off" data-autofocus></div><button class="ib" data-close aria-label="Kapat"><span data-ic="x"></span></button></div>
+  <div class="srch-res" id="srchRes"></div>
+</div>
+
+<div class="modal" id="pm" role="dialog" aria-modal="true" aria-label="Ürün detayı" aria-hidden="true">
+  <button class="m-x" data-close aria-label="Kapat"><span data-ic="x"></span></button>
+  <div class="m-sc" id="pmSc"></div>
+</div>
+
+<div class="modal narrow" id="co" role="dialog" aria-modal="true" aria-label="Siparişi tamamla" aria-hidden="true">
+  <button class="m-x" data-close aria-label="Kapat"><span data-ic="x"></span></button>
+  <div class="m-sc" id="coSc"></div>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"><i data-ic="check"></i><span id="toastT"></span><button type="button" id="toastB"></button></div>
+
+<script>
+/* ================= AYARLAR ================= */
+const CONFIG={
+  brand:"Avrupa Store",
+  wa:"905426934282",          // WhatsApp (ülke koduyla)
+  phone:"0542 693 42 82",
+  tel:"+905426934282",
+  instagram:"avrupa_store63",
+  printFee:150,               // forma isim-numara baskı ücreti (adet)
+  kapidaOnlyTekli:true,       // toptan siparişte kapıda ödeme kapalı
+  orderPrefix:"AVS"
+};
+const U=(id,w=800)=>`https://images.unsplash.com/photo-${id}?w=${w}&q=72&auto=format&fit=crop`;
+
+/* Ürünler: tekli = tek adet fiyatı, toptan = seri alımda adet başı fiyat. Seri = her bedenden 1 adet */
+const PRODUCTS=[
+ {id:1,name:"Parlak Şişme Mont",color:"Siyah",cat:"Mont",tekli:1750,toptan:1250,sizes:["S","M","L","XL"],imgs:["1769689388217-c3c8fec7099d","1769689387719-f11faac08cbe"],badge:"Çok satan",desc:"Kapüşonlu, parlak yüzeyli şişme mont. Dolgulu yapısı soğukta sıcak tutar; rahat kesim, her kombinle gider."},
+ {id:2,name:"Kapitone Mont",color:"Siyah",cat:"Mont",tekli:1450,toptan:990,sizes:["S","M","L","XL"],imgs:["1614031679232-0dae776a72ee"],badge:"Yeni",desc:"İnce kapitone dikişli, dik yaka fermuarlı mont. Hafif ama sıcak; şehir içi günlük kullanım için ideal."},
+ {id:3,name:"Şişme Mont",color:"Kahve",cat:"Mont",tekli:1650,toptan:1150,sizes:["S","M","L","XL"],imgs:["1608113562252-b320e7628e17"],desc:"Dik yaka, kalın dolgulu şişme mont. Kahve tonu jean ve kargo pantolonla çok iyi durur."},
+ {id:5,name:"Özel Seri Forma",color:"Siyah · Altın",cat:"Forma",tekli:650,toptan:420,sizes:["S","M","L","XL","XXL"],imgs:["1689624291789-7b402a15915a"],badge:"Yeni",print:true,jersey:["#121214","#d9b862"],desc:"Siyah zemin üzerine altın detaylı özel seri forma. Nefes alan kumaş; maç, halı saha ve günlük kullanım."},
+ {id:6,name:"İsim-Numaralı Forma",color:"Bordo · Beyaz",cat:"Forma",tekli:650,toptan:420,sizes:["S","M","L","XL","XXL"],imgs:["1577212017308-55c4d60d2609"],badge:"İsme özel",print:true,jersey:["#7d1426","#ffffff"],desc:"Sırtına istediğin isim ve numarayı basıyoruz. Hediye için de, takım için de en çok tercih edilen model."},
+ {id:7,name:"Oversize Hoodie",color:"Bej",cat:"Hoodie",tekli:750,toptan:480,sizes:["S","M","L","XL"],imgs:["1564557287817-3785e38ec1f5"],badge:"Çok satan",desc:"Geniş kalıp kapüşonlu sweatshirt. İçi yumuşak, kanguru cepli; sezonun temel parçası."},
+ {id:8,name:"Basic Hoodie",color:"Siyah",cat:"Hoodie",tekli:690,toptan:440,sizes:["S","M","L","XL"],imgs:["1677538537484-324385aff147"],desc:"Her dolapta olması gereken siyah kapüşonlu. Sade, rahat, her mevsim satan ürün."},
+ {id:9,name:"Oversize Hoodie",color:"Açık Gri",cat:"Hoodie",tekli:750,toptan:480,sizes:["S","M","L","XL"],imgs:["1688111421205-a0a85415b224"],desc:"Açık gri, oversize kesim kapüşonlu. Kalın dokulu, düşük omuzlu."},
+ {id:10,name:"Kapüşonlu Sweat",color:"Vizon",cat:"Hoodie",tekli:720,toptan:460,sizes:["S","M","L","XL"],imgs:["1611817757591-c3f345024273"],desc:"Toprak tonlarını sevenler için vizon renk kapüşonlu sweat."},
+ {id:11,name:"Kapüşonlu Sweat",color:"Taba",cat:"Hoodie",tekli:750,toptan:480,sizes:["S","M","L","XL"],imgs:["1578768079052-aa76e52ff62e"],desc:"Taba renk, kalın kapüşonlu sweat. Siyah alt ile güçlü bir kombin."},
+ {id:12,name:"Kapüşonlu Sweat",color:"Haki",cat:"Hoodie",tekli:720,toptan:460,sizes:["S","M","L","XL"],imgs:["1565978771542-0db9ab9ad3de"],desc:"Haki yeşil kapüşonlu sweat. Kargo pantolon ve botla tam uyum."},
+ {id:13,name:"Eşofman Takımı",color:"Kırmızı",cat:"Eşofman",tekli:1150,toptan:790,sizes:["S","M","L","XL"],imgs:["1760736699270-d1bc09a6509f","1760736534441-4d14bf11103e"],badge:"Yeni",desc:"Fermuarlı üst ve paçası lastikli alt. Göz alan kırmızı, takım halinde."},
+ {id:14,name:"Şeritli Eşofman Altı",color:"Kırmızı · Siyah",cat:"Eşofman",tekli:550,toptan:360,sizes:["S","M","L","XL"],imgs:["1602670935908-094f41dcb67c"],desc:"Yanı şeritli, lastikli bel eşofman altı. Spor ve günlük kullanım için."}
+];
+const CATS=[
+ {key:"Mont",label:"Mont",img:"1614031679232-0dae776a72ee"},
+ {key:"Forma",label:"Forma",img:"1676498111080-5b73b7f0122c"},
+ {key:"Hoodie",label:"Hoodie & Sweat",img:"1677538537484-324385aff147"},
+ {key:"Eşofman",label:"Eşofman",img:"1644718847248-bdd7b044def9"}
+];
+
+/* ================= YARDIMCILAR ================= */
+const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
+const P='fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"';
+const sv=d=>`<svg viewBox="0 0 24 24" ${P} aria-hidden="true">${d}</svg>`;
+const IC={
+ search:sv('<circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/>'),
+ heart:sv('<path d="M12 20s-7-4.4-9.2-8.7C1.3 8.2 3 4.5 6.6 4.5c2.1 0 3.5 1.1 4.4 2.5.9-1.4 2.3-2.5 4.4-2.5 3.6 0 5.3 3.7 3.8 6.8C19 15.6 12 20 12 20z"/>'),
+ bag:sv('<path d="M5 8h14l-1.2 12H6.2L5 8z"/><path d="M9 10V6.5a3 3 0 0 1 6 0V10"/>'),
+ menu:sv('<path d="M4 7h16M4 12h16M4 17h10"/>'),
+ x:sv('<path d="M6 6l12 12M18 6 6 18"/>'),
+ truck:sv('<path d="M3 6.5h11v9.5H3z"/><path d="M14 10h4l3 3.2V16h-7"/><circle cx="7" cy="17.5" r="1.8"/><circle cx="17.5" cy="17.5" r="1.8"/>'),
+ layers:sv('<path d="m12 3 9 5-9 5-9-5 9-5z"/><path d="m3 13 9 5 9-5"/>'),
+ shield:sv('<path d="M12 3 4 6v6c0 4.5 3.4 8.3 8 9 4.6-.7 8-4.5 8-9V6l-8-3z"/><path d="m9 12 2 2 4-4"/>'),
+ chat:sv('<path d="M21 12a8 8 0 0 1-11.8 7L4 20l1.1-4.6A8 8 0 1 1 21 12z"/>'),
+ grid:sv('<rect x="4" y="4" width="7" height="7" rx="1.6"/><rect x="13" y="4" width="7" height="7" rx="1.6"/><rect x="4" y="13" width="7" height="7" rx="1.6"/><rect x="13" y="13" width="7" height="7" rx="1.6"/>'),
+ list:sv('<path d="M9 6h11M9 12h11M9 18h11"/><circle cx="4.5" cy="6" r=".8"/><circle cx="4.5" cy="12" r=".8"/><circle cx="4.5" cy="18" r=".8"/>'),
+ arrow:sv('<path d="M5 12h14M13 6l6 6-6 6"/>'),
+ left:sv('<path d="M15 6l-6 6 6 6"/>'),
+ right:sv('<path d="M9 6l6 6-6 6"/>'),
+ check:sv('<path d="m5 12.5 4.5 4.5L19 7.5"/>'),
+ swap:sv('<path d="M7 4 3 8l4 4"/><path d="M3 8h14"/><path d="m17 20 4-4-4-4"/><path d="M21 16H7"/>'),
+ home:sv('<path d="M4 11 12 4l8 7v9h-5v-6H9v6H4z"/>'),
+ trash:sv('<path d="M4 7h16M10 11v6M14 11v6M6 7l1 13h10l1-13M9 7V4h6v3"/>'),
+ tag:sv('<path d="M3 12V4h8l10 10-8 8L3 12z"/><circle cx="7.5" cy="8.5" r="1.3"/>'),
+ user:sv('<circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/>'),
+ shirt:sv('<path d="M8 3 3 6l2 5 3-1v11h8V10l3 1 2-5-5-3c-.5 1.7-2 3-4 3S8.5 4.7 8 3z"/>'),
+ phone:sv('<path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/>'),
+ ig:sv('<rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".6" fill="currentColor"/>'),
+ plus:sv('<path d="M12 5v14M5 12h14"/>'),
+ box:sv('<path d="m12 3 8 4.5v9L12 21l-8-4.5v-9L12 3z"/><path d="m4 7.5 8 4.5 8-4.5M12 12v9"/>'),
+ wa:'<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.07-.3-.15-1.26-.46-2.39-1.47-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.21 3.07.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.7.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2-1.41.25-.7.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35m-5.42 7.4h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88 2.64 0 5.12 1.03 6.99 2.9a9.82 9.82 0 0 1 2.89 6.99c0 5.45-4.44 9.88-9.88 9.88m8.41-18.3A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.34 11.89-11.89a11.82 11.82 0 0 0-3.48-8.41z"/></svg>'
+};
+const store={get(k,d){try{const v=localStorage.getItem(k);return v?JSON.parse(v):d}catch(e){return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
+const fmt=n=>Number(n).toLocaleString("tr-TR")+"₺";
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const norm=s=>String(s).toLocaleLowerCase("tr-TR").replace(/ı/g,"i").normalize("NFD").replace(/[̀-ͯ]/g,"");
+const byId=id=>PRODUCTS.find(p=>p.id===+id);
+const saveOf=p=>Math.round((1-p.toptan/p.tekli)*100);
+const maxSave=Math.max(...PRODUCTS.map(saveOf));
+const waLink=t=>`https://wa.me/${CONFIG.wa}?text=${encodeURIComponent(t)}`;
+const catLabel=k=>(CATS.find(c=>c.key===k)||{label:k}).label;
+function paintIcons(root=document){root.querySelectorAll("[data-ic]").forEach(el=>{if(!el.dataset.icDone){el.insertAdjacentHTML("afterbegin",IC[el.dataset.ic]||"");el.dataset.icDone=1}})}
+
+/* ================= DURUM ================= */
+let mode=store.get("avs_mode","tekli"); if(!["tekli","toptan"].includes(mode)) mode="tekli";
+let cart=store.get("avs_cart",[]).filter(c=>byId(c.id));
+let favs=store.get("avs_fav",[]);
+const F={cat:"Tümü",q:"",sort:"rec",fav:false};
+let view="grid";
+const saveCart=()=>store.set("avs_cart",cart);
+
+/* ================= SABİT BÖLÜMLER ================= */
+function staticParts(){
+  $("#menuBtn").innerHTML=IC.menu; $("#searchBtn").innerHTML=IC.search;
+  $("#favBtn").insertAdjacentHTML("afterbegin",IC.heart); $("#cartBtn").insertAdjacentHTML("afterbegin",IC.bag);
+  $("#prev").innerHTML=IC.left; $("#next").innerHTML=IC.right;
+  $$('[data-view="grid"]')[0].innerHTML=IC.grid; $$('[data-view="list"]')[0].innerHTML=IC.list;
+  const tb=$("#tbPhone"); tb.textContent=CONFIG.phone; tb.href="tel:"+CONFIG.tel;
+  const hello="Merhaba, Avrupa Store web sitesinden yazıyorum.";
+  $("#fwa").innerHTML=IC.wa; $("#fwa").href=waLink(hello);
+  $("#faqWa").href=waLink("Merhaba, bir sorum var.");
+  $("#ftIg").innerHTML=IC.ig; $("#ftIg").href="https://instagram.com/"+CONFIG.instagram;
+  $("#ftWa").innerHTML=IC.wa; $("#ftWa").href=waLink(hello);
+  $("#ftTel").innerHTML=IC.phone; $("#ftTel").href="tel:"+CONFIG.tel;
+  $("#ftPhone").textContent=CONFIG.phone; $("#ftPhone").href="tel:"+CONFIG.tel;
+  $("#ftWa2").href=waLink(hello);
+  $("#ftIg2").textContent="@"+CONFIG.instagram; $("#ftIg2").href="https://instagram.com/"+CONFIG.instagram;
+  $("#yr").textContent=new Date().getFullYear();
+
+  $("#catNav").innerHTML=`<a href="#urunler" data-cat="Tümü">Tüm ürünler</a>`+CATS.map(c=>`<a href="#urunler" data-cat="${c.key}">${c.label}</a>`).join("")+`<a href="#toptan">Toptan</a><a class="cn-r" href="${waLink("Merhaba, toptan fiyat listesini almak istiyorum.")}" target="_blank" rel="noopener">${IC.wa}Toptan fiyat listesi iste</a>`;
+  $("#ftCats").innerHTML=CATS.map(c=>`<li><a href="#urunler" data-cat="${c.key}">${c.label}</a></li>`).join("");
+
+  const band=["Mont","Forma","Hoodie","Eşofman","Toptan","Tekli","Sweat","Hızlı sevkiyat"];
+  const one=band.map((w,i)=>`<span class="${i%2?"o":""}">${w}</span><i></i>`).join("");
+  $("#band").innerHTML=one+one;
+
+  $("#cats").innerHTML=CATS.map(c=>{const n=PRODUCTS.filter(p=>p.cat===c.key).length;return `<a class="ct" href="#urunler" data-cat="${c.key}"><img src="${U(c.img,700)}" alt="${c.label}" loading="lazy"><b>${c.label}</b><span>${n} model ${IC.arrow}</span></a>`}).join("");
+
+  $("#heroSide").innerHTML=`
+    <button type="button" class="promo" data-open="6"><img src="${U("1577212017308-55c4d60d2609",700)}" alt="İsim ve numara baskılı forma" loading="lazy"><small>İsme özel</small><strong>Forma<br>baskı</strong><span>İsim + numara · ${fmt(CONFIG.printFee)} ${IC.arrow}</span></button>
+    <button type="button" class="promo dk" data-setmode="toptan"><span class="big">%${maxSave}</span><small>Mağazalar için</small><strong>Toptan<br>fiyatlar</strong><span>Seri ile al, %${maxSave}'e varan avantaj ${IC.arrow}</span></button>`;
+
+  $("#wbList").innerHTML=[["layers","Seri (asorti) ile alım"],["tag","Adet başı toptan fiyat"],["box","Farklı modeller tek siparişte"],["truck","Hızlı sevkiyat"]].map(([i,t])=>`<li><i>${IC[i]}</i>${t}</li>`).join("");
+
+  $("#trust").innerHTML=[["truck","Hızlı sevkiyat","Onaylanan siparişler hızlıca kargoya verilir."],["chat","WhatsApp'tan sipariş","Sepetini oluştur, sipariş tek mesajla bize gelsin."],["layers","Toptan & tekli","Tek parça da alırsın, mağazan için seri de."],["shield","Güvenli ödeme","Havale/EFT · tekli siparişlerde kapıda ödeme."]].map(([i,t,d])=>`<div class="tr"><i>${IC[i]}</i><b>${t}</b><span>${d}</span></div>`).join("");
+
+  const FAQ=[
+    ["Tekli ve toptan alışveriş arasındaki fark ne?","Tekli alışverişte bedenini seçip 1 adetten sipariş verirsin. Toptan alışverişte ürünler seri (her bedenden 1 adet) halinde satılır ve adet başı toptan fiyat uygulanır. Üstteki Tekli / Toptan düğmesiyle fiyatları anında değiştirebilirsin."],
+    ["Toptanda en az ne kadar almam gerekiyor?","Her model için en az 1 seri. Örneğin S-M-L-XL bedenli bir üründe 1 seri 4 adettir. Farklı modelleri aynı siparişte birleştirebilirsin."],
+    ["Sipariş nasıl veriliyor?","Ürünleri sepete ekle, teslimat bilgilerini yaz ve “WhatsApp ile gönder”e bas. Siparişin hazır mesaj olarak WhatsApp'ımıza gelir, stok ve kargo bilgisiyle onaylarız."],
+    ["Ödeme seçenekleri neler?","Havale/EFT ile ödeyebilirsin; IBAN bilgisi sipariş onayında WhatsApp'tan iletilir. Tekli siparişlerde kapıda ödeme de seçebilirsin."],
+    ["Kargo ne kadar sürer, ücreti ne kadar?","Siparişler onaylandıktan sonra hızlıca kargoya verilir. Kargo ücreti ve tahmini teslim süresi sipariş onayında bildirilir."],
+    ["Formaya isim ve numara yazdırabilir miyim?","Evet. Forma ürünlerinde “İsim & numara baskı” seçeneğini açıp isim ve numaranı yaz; ön izlemede nasıl görüneceğini anında görürsün. Baskı ücreti adet başı "+fmt(CONFIG.printFee)+"."],
+    ["Değişim ve iade yapılıyor mu?","Değişim ve iade talepleri için ürün eline ulaştıktan sonra WhatsApp'tan bize yaz; koşulları ürüne göre hemen bildiririz."]
+  ];
+  $("#faq").innerHTML=FAQ.map(([q,a],i)=>`<details${i===0?" open":""}><summary>${q}<i>${IC.plus}</i></summary><p>${a}</p></details>`).join("");
+
+  $("#kw").innerHTML=["Toptan mont","Şişme mont","Toptan forma","İsimli forma","Oversize hoodie","Toptan sweatshirt","Eşofman takımı","Toptan eşofman","Kapüşonlu sweat"].map(k=>`<button type="button" data-kw="${k}">${k}</button>`).join("");
+
+  $("#menuBody").innerHTML=`
+    <div class="mn-sec">Satış türü</div>
+    <div class="mode" data-modesw role="radiogroup" aria-label="Satış türü"><span class="pill"></span><button type="button" data-mode="tekli" role="radio">Tekli satış</button><button type="button" data-mode="toptan" role="radio">Toptan satış</button></div>
+    <div class="mn-sec">Kategoriler</div>
+    <button type="button" class="mn-cat" data-cat="Tümü" data-close><img src="${U("1441986300917-64674bd600d8",200)}" alt="">Tüm ürünler<span>${PRODUCTS.length}</span></button>
+    ${CATS.map(c=>`<button type="button" class="mn-cat" data-cat="${c.key}" data-close><img src="${U(c.img,200)}" alt="">${c.label}<span>${PRODUCTS.filter(p=>p.cat===c.key).length}</span></button>`).join("")}
+    <div class="mn-sec">Bilgi</div>
+    <a class="mn-link" href="#nasil" data-close>Tekli ve toptan alışveriş ${IC.right}</a>
+    <a class="mn-link" href="#toptan" data-close>Toptan fiyat listesi ${IC.right}</a>
+    <a class="mn-link" href="#sss" data-close>Sık sorulan sorular ${IC.right}</a>
+    <a class="mn-link" href="tel:${CONFIG.tel}">${CONFIG.phone} ${IC.phone}</a>
+    <div style="display:grid;gap:8px;margin-top:20px">
+      <a class="btn wa block" href="${waLink(hello)}" target="_blank" rel="noopener">${IC.wa}WhatsApp'tan yaz</a>
+      <a class="btn line block" href="https://instagram.com/${CONFIG.instagram}" target="_blank" rel="noopener">${IC.ig}@${CONFIG.instagram}</a>
+    </div>`;
+  paintIcons();
+}
+
+/* ================= SLIDER ================= */
+const SLIDES=[
+  {pid:1,img:"1769689388217-c3c8fec7099d",pos:"50% 22%",eyebrow:"Kış sezonu · Yeni gelenler",title:"Parlak<br><em>Şişme</em> Mont",desc:"Kapüşonlu, dolgulu, sıcak. Siyahın en parlak hali."},
+  {pid:6,img:"1577212017308-55c4d60d2609",pos:"50% 45%",eyebrow:"İsme özel baskı",title:"Formana<br><em>adını</em> yaz",desc:"İsim ve numara baskılı forma. Ön izlemede anında gör, tek adet bile sipariş ver."},
+  {toptan:true,img:"1644718847248-bdd7b044def9",pos:"50% 50%",eyebrow:"Mağazalar için",title:"Seri ile al<br><em>toptan</em> öde",desc:"Her bedenden 1 adet, adet başı toptan fiyat. Farklı modelleri tek siparişte birleştir."}
+];
+let sIdx=0,sTimer=null;
+function renderSlides(){
+  $("#slides").innerHTML=SLIDES.map((s,i)=>{
+    let prices="",cta="";
+    if(s.toptan){
+      prices=`<div class="sp g"><span>Avantaj</span><b>%${maxSave}'e varan</b></div><div class="sp"><span>Minimum</span><b>1 seri</b></div>`;
+      cta=`<button type="button" class="btn gold" data-setmode="toptan">Toptan fiyatları gör ${IC.arrow}</button><a class="btn ghost" href="#toptan">Fiyat listesi iste</a>`;
+    }else{
+      const p=byId(s.pid);
+      prices=`<div class="sp"><span>Tekli</span><b>${fmt(p.tekli)}</b></div><div class="sp g"><span>Toptan</span><b>${fmt(p.toptan)}<small>/adet</small></b></div>`;
+      cta=`<button type="button" class="btn gold" data-open="${p.id}">${p.print?"Formanı tasarla":"Hemen incele"} ${IC.arrow}</button><a class="btn ghost" href="#urunler" data-cat="${p.cat}">Tüm ${catLabel(p.cat).toLocaleLowerCase("tr-TR")}lar</a>`;
+    }
+    return `<article class="slide${i===0?" on":""}" aria-roledescription="slide" aria-label="${i+1} / ${SLIDES.length}" ${i?'aria-hidden="true"':""}>
+      <div class="s-img"><img src="${U(s.img,1300)}" alt="" style="object-position:${s.pos}" ${i?'loading="lazy"':'fetchpriority="high"'}></div>
+      <div class="s-txt"><span class="eyebrow">${s.eyebrow}</span>${i===0?"<h1":"<h2"} class="s-title">${s.title}${i===0?"</h1>":"</h2>"}<p class="s-desc">${s.desc}</p><div class="s-prices">${prices}</div><div class="s-cta">${cta}</div></div>
+    </article>`}).join("");
+  $("#dots").innerHTML=SLIDES.map((s,i)=>`<button type="button" role="tab" aria-label="Slayt ${i+1}" class="${i===0?"on":""}" data-dot="${i}"></button>`).join("");
+}
+function goSlide(i){
+  sIdx=(i+SLIDES.length)%SLIDES.length;
+  $$("#slides .slide").forEach((el,k)=>{el.classList.toggle("on",k===sIdx);el.setAttribute("aria-hidden",k===sIdx?"false":"true");el.querySelectorAll("a,button").forEach(b=>b.tabIndex=k===sIdx?0:-1)});
+  $$("#dots button").forEach((el,k)=>el.classList.toggle("on",k===sIdx));
+}
+const reduce=window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+function play(){stop();if(!reduce)sTimer=setInterval(()=>goSlide(sIdx+1),6500)}
+function stop(){clearInterval(sTimer)}
+
+/* ================= MOD ================= */
+function setMode(m,announce){
+  if(m===mode&&!announce) return;
+  mode=m; store.set("avs_mode",m);
+  renderMode(); renderGrid(); if(isOpen("pm")) renderPMInfo();
+  if(announce) toast(m==="toptan"?"Toptan mod: fiyatlar adet başı, satış seri ile":"Tekli mod: beden seç, 1 adetten al");
+}
+function renderMode(){
+  $$("[data-modesw]").forEach(el=>{el.dataset.active=mode;el.querySelectorAll("[data-mode]").forEach(b=>b.setAttribute("aria-checked",b.dataset.mode===mode))});
+  $("#bnModeT").textContent=mode==="tekli"?"TEKLİ":"TOPTAN";
+  $("#modeNote").innerHTML=mode==="tekli"
+    ? `${IC.user}<span><b>Tekli satış</b> · Fiyatlar tek adet içindir. Hızlı eklemek için bedene dokun.</span>`
+    : `${IC.layers}<span><b>Toptan satış</b> · Fiyatlar adet başıdır, ürünler seri (her bedenden 1) halinde satılır.</span>`;
+  const H=[
+    {m:"tekli",ic:"user",t:"Tekli alışveriş",s:"Kendin ya da sevdiğin için",li:["1 adetten sipariş","Bedenini seçerek al","Formaya isim & numara baskı","Tekli siparişte kapıda ödeme"]},
+    {m:"toptan",ic:"layers",t:"Toptan alışveriş",s:"Mağaza, butik ve satıcılar için",li:["Seri (asorti) ile alım · her bedenden 1","Adet başı toptan fiyat · %"+maxSave+"'e varan avantaj","Farklı modeller aynı siparişte","Hızlı sevkiyat"]}
+  ];
+  $("#how").innerHTML=H.map(h=>`<div class="hc${mode===h.m?" on":""}"><div class="hc-top"><span class="hc-ic">${IC[h.ic]}</span><div><h3>${h.t}</h3><p>${h.s}</p></div><span class="now">Seçili</span></div><ul>${h.li.map(x=>`<li>${IC.check}${x}</li>`).join("")}</ul>${mode===h.m?`<a class="btn dark" href="#urunler">Ürünlere göz at ${IC.arrow}</a>`:`<button type="button" class="btn line" data-setmode="${h.m}">${h.m==="toptan"?"Toptan fiyatlara geç":"Tekli fiyatlara geç"}</button>`}</div>`).join("");
+}
+
+/* ================= ÜRÜN LİSTESİ ================= */
+function list(){
+  let a=PRODUCTS.slice();
+  if(F.fav) a=a.filter(p=>favs.includes(p.id));
+  else if(F.cat!=="Tümü") a=a.filter(p=>p.cat===F.cat);
+  if(F.q){const q=norm(F.q).trim().split(/\s+/);a=a.filter(p=>{const h=norm(`${p.name} ${p.color} ${p.cat} ${catLabel(p.cat)}`);return q.every(w=>h.includes(w))})}
+  const k=mode;
+  if(F.sort==="asc") a.sort((x,y)=>x[k]-y[k]);
+  if(F.sort==="desc") a.sort((x,y)=>y[k]-x[k]);
+  return a;
+}
+function priceBlock(p){
+  const n=p.sizes.length;
+  return mode==="tekli"
+    ? `<div class="pr"><b>${fmt(p.tekli)}</b></div><div class="pr-sub">Toptan: <b>${fmt(p.toptan)}</b>/adet</div>`
+    : `<div class="pr"><b>${fmt(p.toptan)}</b><small>/adet</small><s>${fmt(p.tekli)}</s></div><div class="pr-sub">1 seri = ${p.sizes.join("-")} · ${n} adet · <b>${fmt(p.toptan*n)}</b></div>`;
+}
+function card(p){
+  const fav=favs.includes(p.id);
+  const imgs=p.imgs.slice(0,2).map((im,i)=>`<img src="${U(im,600)}" alt="${i?"":esc(p.name+" "+p.color)}" loading="lazy"${i?' class="alt"':""}>`).join("");
+  const act=mode==="tekli"
+    ? `<span class="qa-l">Hızlı ekle · beden seç</span><div class="sz" role="group" aria-label="${esc(p.name)} beden">${p.sizes.map(s=>`<button type="button" class="szb" data-qadd="${s}" aria-label="${s} beden sepete ekle">${s}</button>`).join("")}</div>`
+    : `<div class="ws"><div class="step"><button type="button" data-st="-1" aria-label="Azalt">−</button><input value="1" inputmode="numeric" aria-label="Seri adedi" data-seri><button type="button" data-st="1" aria-label="Arttır">+</button></div><button type="button" class="btn sm dark" data-wadd>Ekle</button></div>`;
+  return `<article class="pc" data-id="${p.id}">
+    <div class="pc-media"><button type="button" class="pc-img" data-open="${p.id}" aria-label="${esc(p.name+" "+p.color)} detay">${imgs}</button>
+      <div class="pc-tags">${p.badge?`<span class="tag">${p.badge}</span>`:""}${mode==="toptan"?`<span class="tag g">%${saveOf(p)} toptan</span>`:""}</div>
+      <button type="button" class="pc-fav${fav?" on":""}" data-fav aria-pressed="${fav}" aria-label="Favorilere ${fav?"eklendi":"ekle"}">${IC.heart}</button>
+    </div>
+    <div class="pc-body">
+      <div class="pc-info"><span class="pc-cat">${catLabel(p.cat)}</span><h3 class="pc-name"><button type="button" data-open="${p.id}">${esc(p.name)}</button></h3><span class="pc-col">${esc(p.color)}</span></div>
+      <div class="pc-price">${priceBlock(p)}</div>
+      <div class="pc-act">${act}</div>
+    </div>
+  </article>`;
+}
+function renderGrid(){
+  const a=list();
+  const g=$("#grid"); g.classList.toggle("list",view==="list");
+  g.innerHTML=a.length?a.map(card).join(""):`<div class="empty"><b>${F.fav?"Henüz favorin yok":"Sonuç bulunamadı"}</b><p>${F.fav?"Beğendiğin ürünlerdeki kalbe dokun, burada toplansın.":"Farklı bir kelimeyle aramayı dene."}</p><button type="button" class="btn dark" data-reset>Tüm ürünleri göster</button></div>`;
+  $("#res").textContent=`${a.length} ürün`;
+  $("#pTitle").textContent=F.fav?"Favorilerim":F.q?`“${F.q}” için sonuçlar`:F.cat==="Tümü"?"Tüm ürünler":catLabel(F.cat);
+  const chips=[{k:"Tümü",l:"Tümü",n:PRODUCTS.length},...CATS.map(c=>({k:c.key,l:c.label,n:PRODUCTS.filter(p=>p.cat===c.key).length}))];
+  $("#chips").innerHTML=chips.map(c=>`<button type="button" role="tab" class="chip${!F.fav&&F.cat===c.k?" on":""}" data-cat="${c.k}" aria-selected="${!F.fav&&F.cat===c.k}">${c.l}<span class="n">${c.n}</span></button>`).join("")+`<button type="button" class="chip${F.fav?" on":""}" data-favf aria-selected="${F.fav}">${IC.heart}Favoriler<span class="n">${favs.length}</span></button>`;
+}
+function setCat(c,scroll=true){F.cat=c;F.fav=false;F.q="";$("#qD").value="";renderGrid();if(scroll)scrollToProducts()}
+function scrollToProducts(){$("#urunler").scrollIntoView({behavior:reduce?"auto":"smooth"})}
+
+/* ================= FAVORİ ================= */
+function toggleFav(id){
+  id=+id; const on=!favs.includes(id);
+  favs=on?[...favs,id]:favs.filter(x=>x!==id); store.set("avs_fav",favs);
+  renderBadges(); toast(on?"Favorilere eklendi":"Favorilerden çıkarıldı");
+  if(F.fav) renderGrid(); else $$(`.pc[data-id="${id}"] .pc-fav`).forEach(b=>{b.classList.toggle("on",on);b.setAttribute("aria-pressed",on)});
+  const ch=$("[data-favf] .n"); if(ch) ch.textContent=favs.length;
+}
+
+/* ================= SEPET ================= */
+const lineTotal=c=>{const p=byId(c.id);return c.m==="tekli"?(p.tekli+(c.pr?CONFIG.printFee:0))*c.q:p.toptan*p.sizes.length*c.q};
+const lineUnits=c=>c.m==="tekli"?c.q:c.q*byId(c.id).sizes.length;
+const cartTotal=()=>cart.reduce((s,c)=>s+lineTotal(c),0);
+const cartUnits=()=>cart.reduce((s,c)=>s+lineUnits(c),0);
+const hasToptan=()=>cart.some(c=>c.m==="toptan");
+function addTekli(id,size,q=1,pr=false,pn="",pnum=""){
+  const k=`${id}|t|${size}|${pr?pn+"#"+pnum:""}`;
+  const ex=cart.find(c=>c.k===k);
+  if(ex) ex.q=Math.min(99,ex.q+q); else cart.push({k,id:+id,m:"tekli",s:size,q,pr,pn,pnum});
+  afterAdd(`${byId(id).name} (${size}) sepete eklendi`);
+}
+function addToptan(id,seri){
+  seri=Math.max(1,Math.min(99,parseInt(seri)||1));
+  const k=`${id}|w`; const ex=cart.find(c=>c.k===k);
+  if(ex) ex.q=Math.min(99,ex.q+seri); else cart.push({k,id:+id,m:"toptan",q:seri});
+  afterAdd(`${byId(id).name}: ${seri} seri (${seri*byId(id).sizes.length} adet) eklendi`);
+}
+function afterAdd(msg){saveCart();renderBadges(true);renderCart();toast(msg,isOpen("cart")?"":"Sepete git",()=>openLayer("cart"))}
+function renderBadges(bump){
+  const u=cartUnits()||"",f=favs.length||"";
+  ["#cartCnt","#cartCnt2"].forEach(s=>{const el=$(s);el.textContent=u;if(bump){el.classList.remove("bump");void el.offsetWidth;el.classList.add("bump")}});
+  ["#favCnt","#favCnt2"].forEach(s=>$(s).textContent=f);
+}
+function renderCart(){
+  $("#cartSub").textContent=cart.length?`${cartUnits()} adet`:"";
+  if(!cart.length){
+    $("#cartBody").innerHTML=`<div class="c-empty"><i>${IC.bag}</i><b>Sepetin boş</b><p>Tekli ya da toptan, beğendiğin ürünleri ekle.</p><a class="btn dark" href="#urunler" data-close>Ürünlere göz at</a></div>`;
+    $("#cartFoot").innerHTML=""; $("#cartFoot").hidden=true; return;
+  }
+  $("#cartFoot").hidden=false;
+  $("#cartBody").innerHTML=cart.map(c=>{
+    const p=byId(c.id),n=p.sizes.length;
+    const meta=c.m==="tekli"
+      ? `<span class="mt">TEKLİ</span><span>Beden ${c.s}</span>${c.pr?`<span>· Baskı: ${esc([c.pn,c.pnum].filter(Boolean).join(" "))}</span>`:""}<span>· ${fmt(p.tekli+(c.pr?CONFIG.printFee:0))}</span>`
+      : `<span class="mt w">TOPTAN</span><span>${c.q} seri · ${c.q*n} adet</span><span>· ${fmt(p.toptan)}/adet</span>`;
+    return `<div class="ci" data-k="${esc(c.k)}"><img src="${U(p.imgs[0],200)}" alt=""><div>
+      <div class="ci-t"><b>${esc(p.name)} <span style="font-weight:600;color:var(--muted)">· ${esc(p.color)}</span></b><button type="button" data-rm aria-label="Kaldır">${IC.trash}</button></div>
+      <div class="ci-m">${meta}</div>
+      <div class="ci-b"><div class="step"><button type="button" data-cq="-1" aria-label="Azalt">−</button><output>${c.q}</output><button type="button" data-cq="1" aria-label="Arttır">+</button></div>${c.m==="toptan"?`<span style="font-size:11.5px;color:var(--muted);font-weight:700">seri</span>`:""}<strong>${fmt(lineTotal(c))}</strong></div>
+    </div></div>`}).join("");
+  $("#cartFoot").innerHTML=`<div class="sum"><div><span>Ara toplam</span><b>${fmt(cartTotal())}</b></div><div><span>Kargo</span><b style="font-weight:700">Onayda bildirilir</b></div><div class="tot"><span>Toplam</span><b>${fmt(cartTotal())}</b></div></div>
+    <button type="button" class="btn gold block" id="toCheckout">Siparişi tamamla ${IC.arrow}</button>
+    <button type="button" class="btn line block" data-close>Alışverişe devam et</button>`;
+}
+function changeQty(k,d){
+  const c=cart.find(x=>x.k===k); if(!c) return;
+  c.q+=d; if(c.q<1){cart=cart.filter(x=>x!==c)} else c.q=Math.min(99,c.q);
+  saveCart();renderBadges();renderCart();
+}
+
+/* ================= ÜRÜN DETAYI ================= */
+let pm={};
+function openProduct(id){
+  const p=byId(id); if(!p) return;
+  pm={id:p.id,size:null,qty:1,seri:1,pr:false,pn:"",pnum:"",tried:false};
+  $("#pmSc").innerHTML=`<div class="pm-grid"><div class="gal"><div class="gal-track" id="galT">${p.imgs.map((im,i)=>`<img src="${U(im,1000)}" alt="${esc(p.name+" "+p.color)} ${i+1}">`).join("")}</div>${p.imgs.length>1?`<div class="gal-th">${p.imgs.map((im,i)=>`<button type="button" class="${i?"":"on"}" data-th="${i}" aria-label="Görsel ${i+1}"><img src="${U(im,140)}" alt=""></button>`).join("")}</div>`:""}</div><div><div class="pm-info" id="pmInfo"></div></div></div><div class="pm-bar" id="pmBar"></div>`;
+  renderPMInfo(); openLayer("pm"); $("#pmSc").scrollTop=0;
+}
+function jerseySVG(p){
+  const [bg,fg]=p.jersey||["#111","#fff"];
+  return `<svg viewBox="0 0 200 210" role="img" aria-label="Forma sırt ön izlemesi"><path d="M68 18 46 26 14 50l17 36 19-9v123h100V77l19 9 17-36-32-24-22-8c-6 9-17 14-32 14s-26-5-32-14z" fill="${bg}" stroke="#c9a24a" stroke-width="2"/><text id="jpN" x="100" y="78" text-anchor="middle" font-family="Anton,Impact,sans-serif" font-size="21" letter-spacing="2" fill="${fg}"></text><text id="jpNo" x="100" y="160" text-anchor="middle" font-family="Anton,Impact,sans-serif" font-size="70" fill="${fg}"></text></svg>`;
+}
+function updJersey(){
+  const n=$("#jpN"),no=$("#jpNo"); if(!n) return;
+  const name=(pm.pn||"İSMİN").toLocaleUpperCase("tr-TR"); n.textContent=name;
+  if(name.length>8){n.setAttribute("textLength","150");n.setAttribute("lengthAdjust","spacingAndGlyphs")}else{n.removeAttribute("textLength")}
+  no.textContent=pm.pnum||"10";
+  n.style.opacity=pm.pn?1:.45; no.style.opacity=pm.pnum?1:.45;
+}
+function pmTotal(){const p=byId(pm.id);return mode==="tekli"?(p.tekli+(pm.pr?CONFIG.printFee:0))*pm.qty:p.toptan*p.sizes.length*pm.seri}
+function renderPMBar(){
+  const p=byId(pm.id);
+  $("#pmBar").innerHTML=`<div><span>${mode==="tekli"?`${pm.qty} adet`:`${pm.seri} seri · ${pm.seri*p.sizes.length} adet`}</span><strong id="pmTot">${fmt(pmTotal())}</strong></div><button type="button" class="btn gold" id="pmAdd">${IC.bag}Sepete ekle</button>`;
+}
+function renderPMInfo(){
+  const p=byId(pm.id),n=p.sizes.length;
+  const price=mode==="tekli"
+    ? `<div class="pm-price"><b>${fmt(p.tekli)}</b></div><div class="pm-alt">Mağazan için mi? Toptanda <b>${fmt(p.toptan)}</b>/adet · <button type="button" data-setmode="toptan">toptan fiyatı gör</button></div>`
+    : `<div class="pm-price"><b>${fmt(p.toptan)}</b><small>/adet</small><s>${fmt(p.tekli)}</s><span class="save">%${saveOf(p)} avantaj</span></div><div class="pm-alt">Tek adet mi lazım? <button type="button" data-setmode="tekli">tekli fiyata geç</button></div>`;
+  let opts="";
+  if(mode==="tekli"){
+    opts=`<div class="opt"><div class="opt-h"><b>Beden</b><span id="szHint" class="${pm.tried&&!pm.size?"need":""}">${pm.size?"Seçili: "+pm.size:pm.tried?"Lütfen beden seç":"Beden seç"}</span></div><div class="sz lg" role="radiogroup" aria-label="Beden">${p.sizes.map(s=>`<button type="button" role="radio" aria-checked="${pm.size===s}" class="szb${pm.size===s?" on":""}" data-psz="${s}">${s}</button>`).join("")}</div></div>
+      <div class="opt"><div class="opt-h"><b>Adet</b></div><div class="step lg"><button type="button" data-pq="-1" aria-label="Azalt">−</button><output id="pqOut">${pm.qty}</output><button type="button" data-pq="1" aria-label="Arttır">+</button></div></div>`;
+    if(p.print) opts+=`<div class="print"><label class="sw"><input type="checkbox" id="prChk" ${pm.pr?"checked":""}><span class="sw-ui"></span><span><b>İsim & numara baskı</b><small>+${fmt(CONFIG.printFee)} / adet · sırta baskı</small></span></label>
+      <div class="pf" id="pfBox" ${pm.pr?"":"hidden"}><div class="pf-in"><div class="fld"><label for="prN">İsim</label><input class="inp" id="prN" maxlength="12" placeholder="Örn. BURAK" value="${esc(pm.pn)}" autocomplete="off"></div><div class="fld" id="prNoF"><label for="prNo">Numara</label><input class="inp" id="prNo" maxlength="2" inputmode="numeric" placeholder="0-99" value="${esc(pm.pnum)}"><span class="err">İsim ya da numara yaz.</span></div></div><div class="jp">${jerseySVG(p)}</div></div></div>`;
+  }else{
+    opts=`<div class="opt"><div class="opt-h"><b>Seri içeriği</b><span>${n} adet / seri</span></div><div class="seri">${p.sizes.map(s=>`<span><b>${s}</b>× 1</span>`).join("")}</div></div>
+      <div class="opt"><div class="opt-h"><b>Seri adedi</b><span id="seriInfo">${pm.seri} seri = ${pm.seri*n} adet</span></div><div class="step lg"><button type="button" data-ps="-1" aria-label="Azalt">−</button><output id="psOut">${pm.seri}</output><button type="button" data-ps="1" aria-label="Arttır">+</button></div></div>
+      <div class="note">${fmt(p.toptan)} × ${n} adet = <b>${fmt(p.toptan*n)}</b> / seri. Farklı modelleri aynı siparişte birleştirebilirsin.</div>`;
+  }
+  $("#pmInfo").innerHTML=`<div class="pm-top"><span class="pc-cat">${catLabel(p.cat)} · ${esc(p.color)}</span>${p.badge?`<span class="tag">${p.badge}</span>`:""}</div>
+    <h2 class="pm-name">${esc(p.name)}</h2>
+    <div class="mode" data-modesw data-active="${mode}" role="radiogroup" aria-label="Satış türü" style="width:max-content"><span class="pill"></span><button type="button" data-mode="tekli" role="radio" aria-checked="${mode==="tekli"}">Tekli</button><button type="button" data-mode="toptan" role="radio" aria-checked="${mode==="toptan"}">Toptan</button></div>
+    ${price}
+    <p class="pm-desc">${esc(p.desc)}</p>
+    ${opts}
+    <ul class="pm-perks"><li>${IC.truck}Hızlı sevkiyat</li><li>${IC.chat}Sipariş WhatsApp'tan onaylanır</li><li>${IC.shield}Havale/EFT${mode==="tekli"?" · kapıda ödeme":""}</li></ul>
+    <a class="pm-ask" href="${waLink(`Merhaba, ${p.name} (${p.color}) hakkında bilgi almak istiyorum.`)}" target="_blank" rel="noopener">${IC.wa}Bu ürünü WhatsApp'tan sor</a>`;
+  renderPMBar(); updJersey();
+}
+function pmAdd(){
+  const p=byId(pm.id);
+  if(mode==="toptan"){addToptan(p.id,pm.seri);closeLayer("pm");return}
+  if(!pm.size){pm.tried=true;const h=$("#szHint");h.textContent="Lütfen beden seç";h.className="need";h.scrollIntoView({block:"center",behavior:reduce?"auto":"smooth"});return}
+  if(pm.pr&&!pm.pn.trim()&&!pm.pnum.trim()){$("#prNoF").classList.add("bad");$("#prN").focus();return}
+  addTekli(p.id,pm.size,pm.qty,pm.pr,pm.pr?pm.pn.trim().toLocaleUpperCase("tr-TR"):"",pm.pr?pm.pnum.trim():"");
+  closeLayer("pm");
+}
+
+/* ================= SİPARİŞ ================= */
+let coData={};
+function openCheckout(){
+  if(!cart.length) return;
+  closeLayer("cart",true);
+  renderCO(); openLayer("co"); $("#coSc").scrollTop=0;
+}
+function renderCO(){
+  const tp=hasToptan(); const d=coData;
+  const pay=d.pay&&!(tp&&CONFIG.kapidaOnlyTekli&&d.pay==="Kapıda ödeme")?d.pay:"Havale/EFT";
+  $("#coSc").innerHTML=`<div class="co-h"><h3>Siparişi tamamla</h3><p>Bilgilerini yaz, siparişin hazır mesaj olarak WhatsApp'ımıza gelsin. Onayı oradan veriyoruz.</p></div>
+  <form class="co-b" id="coForm" novalidate>
+    <div class="co-sec">Teslimat bilgileri</div>
+    <div class="fld"><label for="cName">Ad Soyad</label><input class="inp" id="cName" name="name" autocomplete="name" value="${esc(d.name||"")}"><span class="err">Adını ve soyadını yaz.</span></div>
+    ${tp?`<div class="fld"><label for="cFirm">Mağaza / firma adı <span class="opt">(isteğe bağlı)</span></label><input class="inp" id="cFirm" name="firm" autocomplete="organization" value="${esc(d.firm||"")}"></div>`:""}
+    <div class="fld"><label for="cPhone">Telefon</label><input class="inp" id="cPhone" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="05xx xxx xx xx" value="${esc(d.phone||"")}"><span class="err">Geçerli bir cep telefonu yaz (05xx xxx xx xx).</span></div>
+    <div class="row2"><div class="fld"><label for="cIl">İl</label><input class="inp" id="cIl" name="il" autocomplete="address-level1" value="${esc(d.il||"")}"><span class="err">İli yaz.</span></div><div class="fld"><label for="cIlce">İlçe</label><input class="inp" id="cIlce" name="ilce" autocomplete="address-level2" value="${esc(d.ilce||"")}"><span class="err">İlçeyi yaz.</span></div></div>
+    <div class="fld"><label for="cAddr">Açık adres</label><textarea class="inp" id="cAddr" name="addr" autocomplete="street-address" placeholder="Mahalle, cadde/sokak, no, daire">${esc(d.addr||"")}</textarea><span class="err">Açık adresini yaz.</span></div>
+    <div class="fld"><label for="cNote">Sipariş notu <span class="opt">(isteğe bağlı)</span></label><input class="inp" id="cNote" name="note" value="${esc(d.note||"")}" placeholder="Örn. akşam 6'dan sonra arayın"></div>
+    <div class="co-sec">Ödeme</div>
+    <div class="pays">
+      <label class="pay"><input type="radio" name="pay" value="Havale/EFT" ${pay==="Havale/EFT"?"checked":""}><span><b>Havale / EFT</b><small>IBAN bilgisi sipariş onayında WhatsApp'tan iletilir.</small></span></label>
+      <label class="pay${tp&&CONFIG.kapidaOnlyTekli?" dis":""}"><input type="radio" name="pay" value="Kapıda ödeme" ${pay==="Kapıda ödeme"?"checked":""} ${tp&&CONFIG.kapidaOnlyTekli?"disabled":""}><span><b>Kapıda ödeme</b><small>${tp&&CONFIG.kapidaOnlyTekli?"Toptan ürün içeren siparişlerde geçerli değil.":"Ürünü teslim alırken ödersin."}</small></span></label>
+    </div>
+    <div class="co-sec">Sipariş özeti</div>
+    <div class="mini">${cart.map(c=>{const p=byId(c.id);return `<div><span>${esc(p.name)} · ${esc(p.color)} — ${c.m==="tekli"?`${c.s}, ${c.q} adet${c.pr?" + baskı":""}`:`${c.q} seri (${lineUnits(c)} adet)`}</span><b>${fmt(lineTotal(c))}</b></div>`}).join("")}
+      <div style="border-top:1px dashed var(--line);padding-top:8px;margin-top:2px"><span>Kargo</span><b style="font-weight:700">Onayda bildirilir</b></div>
+      <div style="font-size:15px"><span style="color:var(--text);font-weight:800">Toplam</span><b>${fmt(cartTotal())}</b></div>
+    </div>
+  </form>
+  <div class="pm-bar"><div><span>${cartUnits()} adet</span><strong>${fmt(cartTotal())}</strong></div><button type="submit" form="coForm" class="btn wa">${IC.wa}WhatsApp ile gönder</button></div>`;
+}
+const phoneOk=v=>/^0?5\d{9}$/.test(v.replace(/\D/g,"").replace(/^90/,""));
+function validate(form,rules){
+  let first=null;
+  Object.entries(rules).forEach(([id,fn])=>{const el=form.querySelector("#"+id);if(!el)return;const ok=fn(el.value.trim());el.closest(".fld").classList.toggle("bad",!ok);if(!ok&&!first)first=el});
+  if(first) first.focus();
+  return !first;
+}
+const CO_RULES={cName:v=>v.length>=3,cPhone:phoneOk,cIl:v=>v.length>=2,cIlce:v=>v.length>=2,cAddr:v=>v.length>=8};
+function submitCO(e){
+  e.preventDefault();
+  const f=$("#coForm");
+  if(!validate(f,CO_RULES)) return;
+  const v=id=>(f.querySelector("#"+id)||{value:""}).value.trim();
+  coData={name:v("cName"),firm:v("cFirm"),phone:v("cPhone"),il:v("cIl"),ilce:v("cIlce"),addr:v("cAddr"),note:v("cNote"),pay:(f.querySelector('input[name="pay"]:checked')||{}).value||"Havale/EFT"};
+  store.set("avs_co",{name:coData.name,firm:coData.firm,phone:coData.phone,il:coData.il,ilce:coData.ilce,addr:coData.addr});
+  const no=`${CONFIG.orderPrefix}-${String(Date.now()).slice(-5)}`;
+  const L=[`*YENİ SİPARİŞ · ${no}*`,`${CONFIG.brand} web sitesi`,"","*Ürünler*"];
+  cart.forEach((c,i)=>{const p=byId(c.id),n=p.sizes.length;L.push(`${i+1}) ${p.name} – ${p.color}`);
+    if(c.m==="tekli"){const u=p.tekli+(c.pr?CONFIG.printFee:0);L.push(`   TEKLİ · Beden ${c.s} · ${c.q} adet × ${fmt(u)} = ${fmt(u*c.q)}`);if(c.pr)L.push(`   Baskı: ${[c.pn,c.pnum].filter(Boolean).join(" / ")}`)}
+    else L.push(`   TOPTAN · ${c.q} seri (${p.sizes.join("-")}) = ${c.q*n} adet × ${fmt(p.toptan)} = ${fmt(c.q*n*p.toptan)}`)});
+  L.push("",`*Toplam: ${fmt(cartTotal())}* (${cartUnits()} adet)`,"Kargo: onayda bildirilecek",`Ödeme: ${coData.pay}`,"","*Teslimat*",`Ad Soyad: ${coData.name}`);
+  if(coData.firm) L.push(`Mağaza/Firma: ${coData.firm}`);
+  L.push(`Telefon: ${coData.phone}`,`Adres: ${coData.addr}, ${coData.ilce} / ${coData.il}`);
+  if(coData.note) L.push(`Not: ${coData.note}`);
+  const url=waLink(L.join("\n"));
+  const w=window.open(url,"_blank"); if(w) try{w.opener=null}catch(_){}
+  $("#coSc").innerHTML=`<div class="ok"><i>${IC.check}</i><h3>Siparişin hazır</h3><span class="no">${no}</span><p>WhatsApp açıldı. Mesajı <b>gönder</b> tuşuna basarak siparişini bize ilet. Stok ve kargo bilgisiyle hemen dönüş yapacağız.</p><div class="btns"><a class="btn wa block" href="${url}" target="_blank" rel="noopener">${IC.wa}WhatsApp'ı ${w?"tekrar ":""}aç</a><button type="button" class="btn dark block" id="doneOrder">Gönderdim, sepeti temizle</button><button type="button" class="btn line block" data-close>Kapat</button></div></div>`;
+}
+
+/* ================= KATMANLAR ================= */
+const LAYERS={pm:"#pm",cart:"#cart",co:"#co",menu:"#menu",srch:"#srch"};
+let stack=[],lastFocus=null;
+const isOpen=n=>stack.includes(n);
+function openLayer(n){
+  const el=$(LAYERS[n]); if(isOpen(n)) return;
+  if(!stack.length) lastFocus=document.activeElement;
+  stack.push(n); el.classList.add("on"); el.setAttribute("aria-hidden","false");
+  $("#ov").classList.add("on"); document.body.classList.add("lock");
+  if(n==="cart") renderCart();
+  setTimeout(()=>{const f=el.querySelector("[data-autofocus]")||el.querySelector("button[data-close]");f&&f.focus({preventScroll:true})},80);
+}
+function closeLayer(n,keep){
+  n=n||stack[stack.length-1]; if(!n||!isOpen(n)) return;
+  const el=$(LAYERS[n]); el.classList.remove("on"); el.setAttribute("aria-hidden","true");
+  stack=stack.filter(x=>x!==n);
+  if(!stack.length&&!keep){$("#ov").classList.remove("on");document.body.classList.remove("lock");if(lastFocus&&lastFocus.focus&&document.contains(lastFocus))lastFocus.focus({preventScroll:true})}
+}
+
+/* ================= TOAST ================= */
+let tT=null,tFn=null;
+function toast(msg,btn="",fn=null){
+  $("#toastT").textContent=msg; $("#toastB").textContent=btn; tFn=fn;
+  const t=$("#toast"); t.classList.add("on"); clearTimeout(tT); tT=setTimeout(()=>t.classList.remove("on"),3200);
+}
+$("#toastB").addEventListener("click",()=>{$("#toast").classList.remove("on");tFn&&tFn()});
+
+/* ================= ARAMA (mobil) ================= */
+function renderSearch(){
+  const q=$("#qM").value.trim(); const r=$("#srchRes");
+  if(!q){r.innerHTML=`<div class="mn-sec">Popüler aramalar</div><div class="kw">${["Şişme mont","Forma","Hoodie","Eşofman"].map(k=>`<button type="button" data-kwm="${k}">${k}</button>`).join("")}</div>`;return}
+  const qs=norm(q).split(/\s+/);
+  const a=PRODUCTS.filter(p=>{const h=norm(`${p.name} ${p.color} ${p.cat} ${catLabel(p.cat)}`);return qs.every(w=>h.includes(w))});
+  r.innerHTML=a.length?a.map(p=>`<button type="button" class="sr-i" data-open="${p.id}"><img src="${U(p.imgs[0],140)}" alt=""><div><b>${esc(p.name)}</b><span>${esc(p.color)} · ${catLabel(p.cat)}</span></div><strong>${fmt(p[mode])}${mode==="toptan"?"<small style='font-size:11px;color:var(--muted)'>/adet</small>":""}</strong></button>`).join(""):`<div class="sr-none">“${esc(q)}” için ürün bulunamadı.</div>`;
+}
+
+/* ================= OLAYLAR ================= */
+document.addEventListener("click",e=>{
+  const t=e.target;
+  const c=(s)=>t.closest(s);
+  let el;
+  if(el=c("[data-close]")){const layer=el.closest(".drawer,.modal,.srch");if(layer){const n=Object.keys(LAYERS).find(k=>$(LAYERS[k])===layer);closeLayer(n)}}
+  if(el=c("[data-mode]")){setMode(el.dataset.mode,el.dataset.mode!==mode);return}
+  if(el=c("[data-setmode]")){const m=el.dataset.setmode;if(m!==mode)setMode(m,true);if(!isOpen("pm")){scrollToProducts()}return}
+  if(el=c("[data-open]")){e.preventDefault();if(isOpen("srch"))closeLayer("srch",true);openProduct(el.dataset.open);return}
+  if(el=c("[data-cat]")){e.preventDefault();if(isOpen("menu"))closeLayer("menu");setCat(el.dataset.cat,!el.classList.contains("chip"));return}
+  if(el=c("[data-favf]")){F.fav=!F.fav;renderGrid();return}
+  if(el=c("[data-reset]")){F.fav=false;setCat("Tümü",false);return}
+  if(el=c("[data-kw]")){F.q=el.dataset.kw;F.fav=false;F.cat="Tümü";$("#qD").value=F.q;renderGrid();scrollToProducts();return}
+  if(el=c("[data-kwm]")){$("#qM").value=el.dataset.kwm;renderSearch();return}
+  if(el=c("[data-dot]")){goSlide(+el.dataset.dot);play();return}
+  if(el=c("[data-view]")){view=el.dataset.view;$$("[data-view]").forEach(b=>b.classList.toggle("on",b===el));renderGrid();return}
+  if(el=c("[data-opencart]")){openLayer("cart");return}
+  // kart
+  const pc=c(".pc");
+  if(pc){
+    const id=+pc.dataset.id;
+    if(el=c("[data-fav]")){toggleFav(id);return}
+    if(el=c("[data-qadd]")){addTekli(id,el.dataset.qadd);el.classList.add("ok");setTimeout(()=>el.classList.remove("ok"),900);return}
+    if(el=c("[data-st]")){const i=pc.querySelector("[data-seri]");i.value=Math.max(1,Math.min(99,(parseInt(i.value)||1)+ +el.dataset.st));return}
+    if(el=c("[data-wadd]")){const i=pc.querySelector("[data-seri]");addToptan(id,i.value);i.value=1;return}
+  }
+  // sepet
+  const ci=c(".ci");
+  if(ci){const k=ci.dataset.k;if(c("[data-rm]")){cart=cart.filter(x=>x.k!==k);saveCart();renderBadges();renderCart();return}if(el=c("[data-cq]")){changeQty(k,+el.dataset.cq);return}}
+  if(c("#toCheckout")){openCheckout();return}
+  if(c("#doneOrder")){cart=[];saveCart();renderBadges();renderCart();closeLayer("co");toast("Teşekkürler! Siparişin bize ulaştığında onaylayacağız.");return}
+  // ürün modalı
+  if(isOpen("pm")&&c("#pm")){
+    if(el=c("[data-psz]")){pm.size=el.dataset.psz;renderPMInfo();return}
+    if(el=c("[data-pq]")){pm.qty=Math.max(1,Math.min(99,pm.qty+ +el.dataset.pq));$("#pqOut").textContent=pm.qty;renderPMBar();return}
+    if(el=c("[data-ps]")){pm.seri=Math.max(1,Math.min(99,pm.seri+ +el.dataset.ps));const n=byId(pm.id).sizes.length;$("#psOut").textContent=pm.seri;$("#seriInfo").textContent=`${pm.seri} seri = ${pm.seri*n} adet`;renderPMBar();return}
+    if(el=c("[data-th]")){const tr=$("#galT");tr.scrollTo({left:tr.clientWidth*+el.dataset.th,behavior:reduce?"auto":"smooth"});return}
+    if(c("#pmAdd")){pmAdd();return}
+  }
+});
+document.addEventListener("change",e=>{
+  if(e.target.id==="prChk"){pm.pr=e.target.checked;$("#pfBox").hidden=!pm.pr;renderPMBar();if(pm.pr)setTimeout(()=>$("#prN").focus(),30)}
+  if(e.target.id==="sort"){F.sort=e.target.value;renderGrid()}
+  if(e.target.matches("[data-seri]")){e.target.value=Math.max(1,Math.min(99,parseInt(e.target.value)||1))}
+});
+document.addEventListener("input",e=>{
+  const t=e.target;
+  if(t.id==="prN"){pm.pn=t.value;updJersey();$("#prNoF").classList.remove("bad")}
+  if(t.id==="prNo"){t.value=t.value.replace(/\D/g,"").slice(0,2);pm.pnum=t.value;updJersey();$("#prNoF").classList.remove("bad")}
+  if(t.closest&&t.closest(".fld.bad")&&t.classList.contains("inp")) t.closest(".fld").classList.remove("bad");
+  if(t.id==="qD"){F.q=t.value.trim();if(F.q){F.fav=false;F.cat="Tümü"}renderGrid()}
+  if(t.id==="qM") renderSearch();
+});
+document.addEventListener("focusout",e=>{
+  const t=e.target; if(!t.classList||!t.classList.contains("inp")) return;
+  const rules={...CO_RULES,bName:v=>v.length>=3,bCity:v=>v.length>=2,bPhone:phoneOk};
+  const fn=rules[t.id]; if(fn&&t.value.trim()) t.closest(".fld").classList.toggle("bad",!fn(t.value.trim()));
+});
+document.addEventListener("submit",e=>{
+  if(e.target.id==="coForm") return submitCO(e);
+  if(e.target.id==="bayiForm"){
+    e.preventDefault(); const f=e.target;
+    if(!validate(f,{bName:v=>v.length>=3,bCity:v=>v.length>=2,bPhone:phoneOk})) return;
+    const v=id=>f.querySelector("#"+id).value.trim();
+    const msg=["Merhaba, Avrupa Store toptan fiyat listesini almak istiyorum.","",`Ad Soyad: ${v("bName")}`,v("bShop")?`Mağaza: ${v("bShop")}`:"",`Şehir: ${v("bCity")}`,`Telefon: ${v("bPhone")}`].filter(x=>x!=="").join("\n");
+    window.open(waLink(msg),"_blank","noopener"); toast("WhatsApp açıldı, mesajı göndermen yeterli");
+  }
+  if(e.target.id==="dSearch"){e.preventDefault();scrollToProducts()}
+});
+document.addEventListener("keydown",e=>{
+  if(e.key==="Escape"&&stack.length){closeLayer();return}
+  if(e.key==="Tab"&&stack.length){
+    const el=$(LAYERS[stack[stack.length-1]]);
+    const f=[...el.querySelectorAll('a[href],button:not([disabled]),input:not([disabled]):not([type="hidden"]),select,textarea')].filter(x=>x.offsetParent!==null&&!x.closest("[hidden]"));
+    if(!f.length) return; const a=f[0],z=f[f.length-1];
+    if(e.shiftKey&&document.activeElement===a){e.preventDefault();z.focus()} else if(!e.shiftKey&&document.activeElement===z){e.preventDefault();a.focus()}
+  }
+});
+$("#ov").addEventListener("click",()=>closeLayer());
+$("#cartBtn").addEventListener("click",()=>openLayer("cart"));
+$("#bnCart").addEventListener("click",()=>openLayer("cart"));
+$("#menuBtn").addEventListener("click",()=>openLayer("menu"));
+$("#bnCats").addEventListener("click",()=>openLayer("menu"));
+$("#searchBtn").addEventListener("click",()=>{renderSearch();openLayer("srch")});
+$("#favBtn").addEventListener("click",()=>{F.fav=true;renderGrid();scrollToProducts()});
+$("#bnFav").addEventListener("click",()=>{F.fav=true;renderGrid();scrollToProducts()});
+$("#bnMode").addEventListener("click",()=>setMode(mode==="tekli"?"toptan":"tekli",true));
+$("#prev").addEventListener("click",()=>{goSlide(sIdx-1);play()});
+$("#next").addEventListener("click",()=>{goSlide(sIdx+1);play()});
+$("#slider").addEventListener("mouseenter",stop);
+$("#slider").addEventListener("mouseleave",play);
+$("#slider").addEventListener("focusin",stop);
+(()=>{let x0=null;const s=$("#slider");s.addEventListener("touchstart",e=>{x0=e.touches[0].clientX;stop()},{passive:true});s.addEventListener("touchend",e=>{if(x0===null)return;const dx=e.changedTouches[0].clientX-x0;if(Math.abs(dx)>45)goSlide(sIdx+(dx<0?1:-1));x0=null;play()},{passive:true})})();
+document.addEventListener("visibilitychange",()=>document.hidden?stop():play());
+// galeri küçük resim senkron
+document.addEventListener("scroll",e=>{if(e.target&&e.target.id==="galT"){const tr=e.target,i=Math.round(tr.scrollLeft/tr.clientWidth);$$("#pm [data-th]").forEach((b,k)=>b.classList.toggle("on",k===i))}},true);
+
+/* ================= BAŞLAT ================= */
+coData=store.get("avs_co",{});
+staticParts(); renderSlides(); goSlide(0); renderMode(); renderGrid(); renderBadges(); renderCart(); play();
+</script>
+</body>
+</html>
